@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptLabel" id="GPHX BCKG" x="0" y="0" width="849" height="562"
+             bgColour="4278190080" text="" itemColour2="4279308561">
+    <Component type="ScriptPanel" id="main bck00" x="0" y="0" parentComponent="GPHX BCKG"
+               width="739" height="460" bgColour="16777215" textColour="372068718"
+               borderRadius="2" itemColour2="813928113" itemColour="4278190080"/>
+    <Component type="ScriptPanel" id="main bck 01" x="101" y="-4" parentComponent="GPHX BCKG"
+               width="535" height="414" bgColour="9473678" textColour="261472202"
+               itemColour="4278190080" itemColour2="857942319" borderRadius="2"
+               borderSize="1"/>
+    <Component type="ScriptPanel" id="main bck top" x="0" y="-2" width="800"
+               height="45" parentComponent="GPHX BCKG" itemColour="4278190080"
+               textColour="258308494" borderRadius="2" itemColour2="4279046421"/>
+    <Component type="ScriptPanel" id="main UI panel bck" x="101" y="40" width="533"
+               height="370" itemColour="3539992576" itemColour2="1694498816"
+               borderRadius="2" textColour="100663295" parentComponent="GPHX BCKG"/>
+    <Component type="ScriptPanel" id="main bck low" x="0" y="409" parentComponent="GPHX BCKG"
+               width="800" height="60" bgColour="9473678" textColour="372068718"
+               itemColour="4278190080" itemColour2="0" borderRadius="2" borderSize="3"/>
+    <Component type="ScriptPanel" id="red fabric bck" x="6" y="38" width="800"
+               height="8" parentComponent="GPHX BCKG" itemColour="2182938624"
+               textColour="258308494" borderRadius="2" itemColour2="2841315850"/>
+    <Component type="ScriptPanel" id="main bck low1" x="0" y="409" parentComponent="GPHX BCKG"
+               width="739" height="55" bgColour="9473678" textColour="93700042"
+               itemColour="629378737" itemColour2="3036676096" borderRadius="2"/>
+    <Component type="ScriptLabel" id="COMP THRESHOLD label" x="144" y="18" parentComponent="GPHX BCKG"
+               width="72" height="18" itemColour="637534207" fontSize="12" fontName="Calibri"
+               enabled="0" textColour="4004754355" fontStyle="Bold" bgColour="541805387"
+               text="THRESHOLD"/>
+    <Component type="ScriptLabel" id="COMP RATIO label" x="219" y="18" parentComponent="GPHX BCKG"
+               width="72" height="18" itemColour="637534207" fontSize="12" fontName="Calibri"
+               enabled="0" textColour="4004754355" fontStyle="Bold" bgColour="541805387"
+               text="RATIO"/>
+    <Component type="ScriptLabel" id="CONVOLUTION PREDELAY label" x="368" y="18"
+               parentComponent="GPHX BCKG" width="72" height="18" itemColour="637534207"
+               fontSize="12" fontName="Calibri" enabled="0" textColour="4004754355"
+               fontStyle="Bold" bgColour="541805387" text="PREDELAY"/>
+    <Component type="ScriptLabel" id="CONVOLUTION DAMPING label" x="443" y="18"
+               parentComponent="GPHX BCKG" width="72" height="18" itemColour="637534207"
+               fontSize="12" fontName="Calibri" enabled="0" textColour="4004754355"
+               fontStyle="Bold" bgColour="541805387" text="DAMPING"/>
+    <Component type="ScriptLabel" id="CONVOLUTION HICUT label" x="518" y="18"
+               parentComponent="GPHX BCKG" width="72" height="18" itemColour="637534207"
+               fontSize="12" fontName="Calibri" enabled="0" textColour="4004754355"
+               fontStyle="Bold" bgColour="541805387" text="HI-CUT"/>
+    <Component type="ScriptLabel" id="Line1" x="50" y="27" parentComponent="GPHX BCKG"
+               height="1" bgColour="1080189538" width="90" itemColour2="1118481"
+               textColour="16777215"/>
+    <Component type="ScriptLabel" id="Line2" x="50" y="28" parentComponent="GPHX BCKG"
+               height="9" bgColour="1080189538" width="1" itemColour2="1118481"
+               textColour="16777215" text="Line1"/>
+    <Component type="ScriptLabel" id="Line3" x="595" y="27" parentComponent="GPHX BCKG"
+               height="1" bgColour="1080189538" width="90" itemColour2="1118481"
+               textColour="16777215" text="Line1"/>
+    <Component type="ScriptLabel" id="Line4" x="684" y="28" parentComponent="GPHX BCKG"
+               height="9" bgColour="1080189538" width="1" itemColour2="1118481"
+               textColour="16777215" text="Line1"/>
+  </Component>
+  <Component type="ScriptPanel" id="LEFT PANEL " x="4" y="48" width="92" height="409"
+             bgColour="16777215" itemColour="0" itemColour2="0" textColour="16777215">
+    <Component type="ScriptPanel" id="buttonsa layer5" x="8" y="35" width="73"
+               height="28" parentComponent="LEFT PANEL " bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="AUDIO COMPRESSION   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
+    <Component type="ScriptPanel" id="buttonsa layer4" x="9" y="75" width="73"
+               height="28" parentComponent="LEFT PANEL " bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="AUDIO COMPRESSION BOOST   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
+    <Component type="ScriptPanel" id="buttonsa layer3" x="8" y="175" width="73"
+               height="28" parentComponent="LEFT PANEL " bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="SHOW ADVANCED EDITOR PANEL   -   click+rightswipe = OPEN   |   click+leftswipe = CLOSE"/>
+    <Component type="ScriptPanel" id="buttonsa layer9" x="9" y="218" width="73"
+               height="28" parentComponent="LEFT PANEL " bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="SHOW SETTINGS PANEL   -   click+rightswipe = OPEN   |   click+leftswipe = CLOSE"/>
+    <Component type="ScriptSlider" id="COMPRESSION SWPBTTN" x="12" y="44" width="66"
+               height="12" parentComponent="LEFT PANEL " style="Horizontal"
+               itemColour2="827281231" bgColour="1402509464" itemColour="3346683660"
+               stepSize="1" textColour="0" showTextBox="0" processorId="COMPRESSION"
+               parameterId="CompressorEnabled" text="BODY SWPBTTN"/>
+    <Component type="ScriptSlider" id="BOOST SWPBTTN" x="12" y="83" width="66"
+               height="12" parentComponent="LEFT PANEL " style="Horizontal"
+               itemColour2="827281231" bgColour="1402509464" itemColour="3346683660"
+               stepSize="1" textColour="0" showTextBox="0" processorId="COMPRESSION"
+               parameterId="CompressorMakeup"/>
+    <Component type="ScriptSlider" id="EDITOR SWPBTTN" x="12" y="183" width="66"
+               height="12" parentComponent="LEFT PANEL " style="Horizontal"
+               itemColour2="827281231" bgColour="1402509464" itemColour="3349352721"
+               stepSize="1" textColour="0" showTextBox="0" saveInPreset="0"/>
+    <Component type="ScriptSlider" id="SETTINGS SWPBTTN" x="12" y="226" width="66"
+               height="12" parentComponent="LEFT PANEL " style="Horizontal"
+               itemColour2="827281231" bgColour="1402509464" itemColour="3349352721"
+               stepSize="1" textColour="0" showTextBox="0" saveInPreset="0"/>
+    <Component type="ScriptLabel" id="LEFT PANEL labels" x="4" y="0" parentComponent="LEFT PANEL "
+               width="85" height="349" textColour="16777215" itemColour2="0"
+               enabled="0">
+      <Component type="ScriptLabel" id="swb-undr 04" x="12" y="45" parentComponent="LEFT PANEL labels"
+                 width="59" height="10" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="COMPRESSION ON" x="5" y="38" parentComponent="LEFT PANEL labels"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="COMPRESSION"/>
+      <Component type="ScriptLabel" id="swb-undr 05" x="12" y="84" parentComponent="LEFT PANEL labels"
+                 width="59" height="10" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="BOOST ON" x="5" y="77" parentComponent="LEFT PANEL labels"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="BOOST"/>
+      <Component type="ScriptLabel" id="swb-undr 06" x="12" y="184" parentComponent="LEFT PANEL labels"
+                 width="59" height="10" bgColour="1564684079" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="EDITOR PANEL SHOW" x="5" y="177" parentComponent="LEFT PANEL labels"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="EDITOR" tooltip="SHOW ADVANCED EDITOR | click+rightswipe = OPEN  |  click+leftswipe = CLOSE"/>
+      <Component type="ScriptLabel" id="Line5" x="42" y="1" parentComponent="LEFT PANEL labels"
+                 height="34" bgColour="1080189538" width="1" itemColour2="1118481"
+                 textColour="16777215" text="Line1"/>
+      <Component type="ScriptLabel" id="Line6" x="42" y="65" parentComponent="LEFT PANEL labels"
+                 height="9" bgColour="1080189538" width="1" itemColour2="1118481"
+                 textColour="16777215" text="Line1"/>
+      <Component type="ScriptLabel" id="swb-undr 010" x="12" y="227" parentComponent="LEFT PANEL labels"
+                 width="59" height="10" bgColour="1564684079" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="SETTINGS PANEL SHOW" x="5" y="220" parentComponent="LEFT PANEL labels"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="SETTINGS" tooltip="SHOW SETTINGS | click+rightswipe = OPEN  |  click+leftswipe = CLOSE"/>
+    </Component>
+    <Component type="ScriptLabel" id="KEYBUTTON" x="37" y="373" width="24" height="28"
+               parentComponent="LEFT PANEL " textColour="16777215" itemColour2="0"
+               bgColour="4029492525">
+      <Component type="ScriptLabel" id="key1" x="2" y="1" parentComponent="KEYBUTTON"
+                 width="6" height="25" itemColour2="4211081216" bgColour="218103807"
+                 itemColour="268435455" editable="0" enabled="0"/>
+      <Component type="ScriptLabel" id="key2" x="9" y="1" parentComponent="KEYBUTTON"
+                 width="6" height="25" itemColour2="4211081216" bgColour="218103807"
+                 itemColour="268435455" text="Label1" editable="0" enabled="0"/>
+      <Component type="ScriptLabel" id="key3" x="16" y="1" parentComponent="KEYBUTTON"
+                 width="6" height="25" itemColour2="4211081216" bgColour="218103807"
+                 itemColour="268435455" text="Label1" editable="0" enabled="0"/>
+      <Component type="ScriptLabel" id="key4" x="6" y="1" parentComponent="KEYBUTTON"
+                 width="5" height="15" itemColour2="4211081216" bgColour="4280229663"
+                 itemColour="268435455" text="Label1" editable="0" enabled="0"/>
+      <Component type="ScriptLabel" id="key5" x="13" y="1" parentComponent="KEYBUTTON"
+                 width="5" height="15" itemColour2="4211081216" bgColour="4280229663"
+                 itemColour="268435455" text="Label1" editable="0" enabled="0"/>
+      <Component type="ScriptButton" id="KEY BUTTON" x="0" y="0" parentComponent="KEYBUTTON"
+                 width="22" height="28" bgColour="0" itemColour="0" itemColour2="0"
+                 textColour="0" filmstripImage="{PROJECT_FOLDER}empty.png" tooltip="SHOW VIRTUAL KEYBOARD "
+                 saveInPreset="0"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="RIGHT PANEL" x="636" y="47" width="102"
+             height="410" bgColour="16777215" itemColour="0" itemColour2="0"
+             textColour="16777215">
+    <Component type="ScriptPanel" id="buttonsa layer6" x="0" y="35" width="98"
+               height="28" parentComponent="RIGHT PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="CONVOLUTION REVERB SELECTOR "/>
+    <Component type="ScriptPanel" id="buttonsa layer7" x="7" y="74" width="83"
+               height="28" parentComponent="RIGHT PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="CONVOLUTION REVERBATION   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
+    <Component type="ScriptPanel" id="buttonsa layer8" x="9" y="174" width="83"
+               height="28" parentComponent="RIGHT PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="SHOW EQUALIZER PANEL   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
+    <Component type="ScriptSlider" id="C-REVERB" x="17" y="83" width="66" height="12"
+               parentComponent="RIGHT PANEL" style="Horizontal" itemColour2="827281231"
+               bgColour="1402509464" itemColour="1612801791" stepSize="1" textColour="0"
+               showTextBox="0" processorId="CONVOLUTION" parameterId="ProcessInput"
+               tooltip="ON &lt; &lt; &lt;  CLICK + SWIPE  &gt; &gt; &gt; MUTE"/>
+    <Component type="ScriptSlider" id="EQ SWPBTTN" x="17" y="183" width="66"
+               height="12" parentComponent="RIGHT PANEL" style="Horizontal"
+               itemColour2="827281231" bgColour="1402509464" itemColour="3349352721"
+               stepSize="1" textColour="0" showTextBox="0" tooltip="ON &lt; &lt; &lt;  CLICK + SWIPE  &gt; &gt; &gt; MUTE"
+               saveInPreset="0"/>
+    <Component type="ScriptLabel" id="LEFT PANEL labels1" x="-2" y="0" parentComponent="RIGHT PANEL"
+               width="105" height="349" textColour="16777215" itemColour2="0"
+               enabled="0">
+      <Component type="ScriptLabel" id="swb-undr 08" x="11" y="46" parentComponent="LEFT PANEL labels1"
+                 width="81" height="8" bgColour="1647063621" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="CONVOLUTION SELECTOR" x="5" y="38" parentComponent="LEFT PANEL labels1"
+                 width="94" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text=""/>
+      <Component type="ScriptLabel" id="swb-undr 07" x="23" y="84" parentComponent="LEFT PANEL labels1"
+                 width="58" height="10" bgColour="907428181" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="CONVOLUTION REVERB ON" x="16" y="77" parentComponent="LEFT PANEL labels1"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="C-REVERB"/>
+      <Component type="ScriptLabel" id="swb-undr 09" x="22" y="184" parentComponent="LEFT PANEL labels1"
+                 width="59" height="10" bgColour="1564684079" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="EQ PANEL SHOW" x="16" y="177" parentComponent="LEFT PANEL labels1"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="EQ"/>
+      <Component type="ScriptLabel" id="Line7" x="50" y="1" parentComponent="LEFT PANEL labels1"
+                 height="34" bgColour="1080189538" width="1" itemColour2="1118481"
+                 textColour="16777215" text="Line1"/>
+      <Component type="ScriptLabel" id="Line8" x="50" y="65" parentComponent="LEFT PANEL labels1"
+                 height="9" bgColour="1080189538" width="1" itemColour2="1118481"
+                 textColour="16777215" text="Line1"/>
+    </Component>
+    <Component type="ScriptComboBox" id="CONVOBOX" x="6" y="44" width="88" height="14"
+               parentComponent="RIGHT PANEL" text="" bgColour="352321535" itemColour="2184212735"
+               itemColour2="1118481" textColour="1409286143" items="STUDIO A&#10;STUDIO B&#10;HALL 1&#10;HALL 2&#10;HALL 3&#10;PLATE 1&#10;PLATE 2&#10;PLATE 3&#10;B-PLATE 1&#10;B-PLATE 2&#10;B-PLATE 3&#10;D-PLATE 1&#10;D-PLATE 2&#10;D-PLATE 3&#10;SPRING 1&#10;SPRING 2&#10;SPRING 3"
+               max="17" fontSize="11" fontStyle="Bold"/>
+    <Component type="ScriptLabel" id="ABOUT BUTTON label" x="14" y="221" parentComponent="RIGHT PANEL"
+               width="72" height="24" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               enabled="0" text="ABOUT">
+      <Component type="ScriptButton" id="ABOUT BUTTON" x="0" y="0" width="73"
+                 height="23" parentComponent="ABOUT BUTTON label" bgColour="0"
+                 itemColour="0" itemColour2="0" textColour="0" filmstripImage="{PROJECT_FOLDER}empty2.png"
+                 isMomentary="1"/>
+    </Component>
+    <Component type="ScriptLabel" id="LIBRARYBUTTON" x="37" y="373" parentComponent="RIGHT PANEL"
+               width="25" textColour="16777215" bgColour="4029492525" editable="0">
+      <Component type="ScriptLabel" id="key6" x="2" y="10" parentComponent="LIBRARYBUTTON"
+                 width="10" height="14" itemColour2="0" bgColour="218103807" itemColour="268435455"
+                 text="" editable="0" textColour="16777215" enabled="0"/>
+      <Component type="ScriptLabel" id="key7" x="13" y="10" parentComponent="LIBRARYBUTTON"
+                 width="10" height="14" itemColour2="0" bgColour="218103807" itemColour="268435455"
+                 text="" editable="0" textColour="16777215" enabled="0"/>
+      <Component type="ScriptLabel" id="key8" x="2" y="5" parentComponent="LIBRARYBUTTON"
+                 width="21" height="4" itemColour2="0" bgColour="218103807" itemColour="268435455"
+                 text="" editable="0" textColour="16777215" enabled="0"/>
+      <Component type="ScriptLabel" id="key9" x="2" y="3" parentComponent="LIBRARYBUTTON"
+                 width="21" height="1" itemColour2="0" bgColour="218103807" itemColour="268435455"
+                 text="" editable="0" textColour="16777215" enabled="0"/>
+      <Component type="ScriptButton" id="LIBRARY BUTTON" x="2" y="3" parentComponent="LIBRARYBUTTON"
+                 width="22" height="28" bgColour="0" itemColour="0" itemColour2="0"
+                 textColour="0" filmstripImage="{PROJECT_FOLDER}empty.png" tooltip="SHOW PRESET LIBRARY"
+                 saveInPreset="0"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="KEYCTRL PANEL" x="100" y="45" width="550"
+             height="362" bgColour="16777215" textColour="16777215" itemColour="0"
+             itemColour2="0" borderRadius="1" borderSize="1">
+    <Component type="ScriptLabel" id="W-KEYS BCK GFX" x="2" y="0" width="532"
+               height="333" parentComponent="KEYCTRL PANEL" itemColour2="0"
+               textColour="0">
+      <Component type="ScriptLabel" id="k-bck 010" x="458" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="Label5" enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 01" x="8" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 02" x="83" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="Label5" enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 03" x="158" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="Label5" enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 04" x="233" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="Label5" enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 05" x="308" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="Label5" enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 06" x="383" y="2" parentComponent="W-KEYS BCK GFX"
+                 width="66" height="326" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="Label5" enabled="0"/>
+    </Component>
+    <Component type="ScriptSlider" id="KEYCTRL 01" x="7" y="-4" width="72" height="337"
+               parentComponent="KEYCTRL PANEL" style="Vertical" itemColour2="827281231"
+               bgColour="2922788406" itemColour="1828716543" textColour="16777215"
+               showTextBox="0" showValuePopup="Above" processorId="E1 GAIN"
+               parameterId="Gain" mode="Decibel" min="-100" max="0" stepSize="0.1"
+               suffix=" dB" middlePosition="-18" defaultValue="-10"/>
+    <Component type="ScriptSlider" id="KEYCTRL 02" x="82" y="-4" width="72"
+               height="337" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922788406" itemColour="1828716543"
+               textColour="16777215" showTextBox="0" showValuePopup="Above"
+               processorId="E2 GAIN" parameterId="Gain" mode="Decibel" min="-100"
+               max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-10"/>
+    <Component type="ScriptSlider" id="KEYCTRL 03" x="157" y="-4" width="72"
+               height="337" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922788406" itemColour="1828716543"
+               textColour="16777215" showTextBox="0" showValuePopup="Above"
+               processorId="E3 GAIN" parameterId="Gain" mode="Decibel" min="-100"
+               max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-10"/>
+    <Component type="ScriptSlider" id="KEYCTRL 04" x="232" y="-4" width="72"
+               height="337" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922330423" itemColour="1818400096"
+               textColour="16777215" showTextBox="0" showValuePopup="Above"
+               processorId="IMAGE" parameterId="Width" max="200" stepSize="1"
+               defaultValue="100"/>
+    <Component type="ScriptSlider" id="KEYCTRL 05" x="307" y="-4" width="72"
+               height="337" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922329411" itemColour="1447588557"
+               textColour="16777215" showTextBox="0" showValuePopup="Above"
+               processorId="CONVOLUTION" parameterId="DryGain" mode="Decibel"
+               min="-100" max="0" stepSize="0.1" suffix=" dB" middlePosition="-18"/>
+    <Component type="ScriptSlider" id="KEYCTRL 06" x="382" y="-4" width="72"
+               height="337" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922329411" itemColour="1447588557"
+               textColour="16777215" showTextBox="0" showValuePopup="Above"
+               processorId="CONVOLUTION" parameterId="WetGain" mode="Decibel"
+               min="-100" max="0" stepSize="0.1" suffix=" dB" middlePosition="-20"
+               defaultValue="-34"/>
+    <Component type="ScriptSlider" id="KEYCTRL 011" x="457" y="-4" width="72"
+               height="337" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922720300" itemColour="1825392712"
+               textColour="16777215" showTextBox="0" showValuePopup="Above"
+               mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
+               middlePosition="-18" processorId="VOLUME &amp; PAN" parameterId="Gain"
+               defaultValue="-10"/>
+    <Component type="ScriptLabel" id="B-KEYS covers" x="58" y="0" width="440"
+               height="238" parentComponent="KEYCTRL PANEL" textColour="0" itemColour2="0"
+               enabled="0">
+      <Component type="ScriptLabel" id="k-bck 07" x="0" y="-7" parentComponent="B-KEYS covers"
+                 width="46" height="246" bgColour="4279374354" textColour="16777215"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 08" x="75" y="-7" parentComponent="B-KEYS covers"
+                 width="46" height="246" bgColour="4279374354" text="Label1" textColour="16777215"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 09" x="225" y="-7" parentComponent="B-KEYS covers"
+                 width="46" height="246" bgColour="4279374354" text="Label1" textColour="16777215"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 10" x="300" y="-7" parentComponent="B-KEYS covers"
+                 width="46" height="246" bgColour="4279374354" text="Label1" textColour="16777215"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-bck 11" x="374" y="-8" parentComponent="B-KEYS covers"
+                 width="46" height="246" bgColour="4279374354" text="Label1" textColour="16777215"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-undr 01" x="7" y="-4" parentComponent="B-KEYS covers"
+                 width="32" height="234" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" enabled="0"/>
+      <Component type="ScriptLabel" id="k-undr 02" x="82" y="-4" parentComponent="B-KEYS covers"
+                 width="32" height="234" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="k-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-undr 03" x="232" y="-4" parentComponent="B-KEYS covers"
+                 width="32" height="234" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="k-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-undr 04" x="307" y="-4" parentComponent="B-KEYS covers"
+                 width="32" height="234" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="k-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="k-undr 05" x="381" y="-4" parentComponent="B-KEYS covers"
+                 width="32" height="234" bgColour="1815365716" itemColour2="0"
+                 textColour="16777215" itemColour="942091323" text="k-undr 01"
+                 enabled="0"/>
+    </Component>
+    <Component type="ScriptSlider" id="KEYCTRL 07" x="61" y="-4" width="40"
+               height="240" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="911167311" bgColour="2923182384" itemColour="1828700801"
+               textColour="0" showTextBox="0" showValuePopup="Above" processorId="COMPRESSION"
+               parameterId="CompressorThreshold" mode="Decibel" min="-40" max="0"
+               stepSize="0.1" suffix=" dB" middlePosition="-20"/>
+    <Component type="ScriptSlider" id="KEYCTRL 08" x="136" y="-4" width="40"
+               height="240" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="911167311" bgColour="2923182384" itemColour="1828700801"
+               textColour="0" showTextBox="0" showValuePopup="Above" processorId="COMPRESSION"
+               parameterId="CompressorRatio" max="10"/>
+    <Component type="ScriptSlider" id="KEYCTRL 09" x="286" y="-4" width="40"
+               height="240" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922329411" itemColour="1447588557"
+               textColour="0" showTextBox="0" showValuePopup="Above" processorId="CONVOLUTION"
+               parameterId="Predelay" mode="Time" max="200" stepSize="0.1" suffix=" ms"
+               middlePosition="100"/>
+    <Component type="ScriptSlider" id="KEYCTRL 010" x="361" y="-4" width="40"
+               height="240" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922329411" itemColour="1447588557"
+               textColour="0" showTextBox="0" showValuePopup="Above" processorId="CONVOLUTION"
+               parameterId="Damping" mode="Decibel" min="-100" max="0" stepSize="0.1"
+               suffix=" dB" middlePosition="-18" defaultValue="-100"/>
+    <Component type="ScriptSlider" id="KEYCTRL 012" x="435" y="-4" width="40"
+               height="240" parentComponent="KEYCTRL PANEL" style="Vertical"
+               itemColour2="827281231" bgColour="2922329411" itemColour="1447588557"
+               textColour="0" showTextBox="0" showValuePopup="Above" processorId="CONVOLUTION"
+               parameterId="HiCut" mode="Frequency" min="20" max="20000" stepSize="1"
+               suffix=" Hz" middlePosition="1500" defaultValue="20"/>
+    <Component type="ScriptPanel" id="buttonsa layer" x="6" y="334" width="73"
+               height="28" parentComponent="KEYCTRL PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="E1 [TONE] ON/OFF   -   click+rightswipe = M U T E    |    click+leftswipe = O N"/>
+    <Component type="ScriptPanel" id="buttonsa layer1" x="80" y="334" width="75"
+               height="28" parentComponent="KEYCTRL PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="E2 [RELEASE] ON/OFF   -   click+rightswipe = M U T E    |    click+leftswipe = O N"/>
+    <Component type="ScriptPanel" id="buttonsa layer2" x="155" y="335" width="76"
+               height="27" parentComponent="KEYCTRL PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="E3 [NOISES] ON/OFF   -   click+rightswipe = M U T E    |    click+leftswipe = O N"/>
+    <Component type="ScriptSlider" id="E1 SWPBTTN " x="10" y="342" width="66"
+               height="12" parentComponent="KEYCTRL PANEL" style="Horizontal"
+               itemColour2="827281231" bgColour="1398790490" itemColour="3344829709"
+               stepSize="1" textColour="0" showTextBox="0" processorId="E1 MUTER"
+               parameterId="ignoreButton"/>
+    <Component type="ScriptSlider" id="E2 SWPBTTN" x="85" y="342" width="66"
+               height="12" parentComponent="KEYCTRL PANEL" style="Horizontal"
+               itemColour2="827281231" bgColour="1398790490" itemColour="3344829709"
+               stepSize="1" textColour="0" showTextBox="0" processorId="E2 MUTER"
+               parameterId="ignoreButton"/>
+    <Component type="ScriptSlider" id="E3 SWPBTTN" x="160" y="342" width="66"
+               height="12" parentComponent="KEYCTRL PANEL" style="Horizontal"
+               itemColour2="827281231" bgColour="1398790490" itemColour="3344829709"
+               stepSize="1" textColour="0" showTextBox="0" processorId="E3 MUTER"
+               parameterId="ignoreButton"/>
+    <Component type="ScriptLabel" id="SWPBTTN labels" x="2" y="335" parentComponent="KEYCTRL PANEL"
+               width="530" height="27" textColour="0" itemColour2="0" enabled="0">
+      <Component type="ScriptLabel" id="swb-undr 01" x="12" y="9" parentComponent="SWPBTTN labels"
+                 width="59" height="8" bgColour="1815365716" itemColour2="0" textColour="16777215"
+                 itemColour="942091323" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 02" x="87" y="9" parentComponent="SWPBTTN labels"
+                 width="59" height="8" bgColour="1815365716" itemColour2="0" textColour="16777215"
+                 itemColour="942091323" enabled="0" text="swb-undr 01"/>
+      <Component type="ScriptLabel" id="swb-undr 03" x="162" y="9" parentComponent="SWPBTTN labels"
+                 width="59" height="8" bgColour="1815365716" itemColour2="0" textColour="16777215"
+                 itemColour="942091323" enabled="0" text="swb-undr 01"/>
+      <Component type="ScriptLabel" id="E1 TONE" x="5" y="1" parentComponent="SWPBTTN labels"
+                 width="72" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="2595468211" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="E1 [TONE]"/>
+      <Component type="ScriptLabel" id="E2 RELEASE" x="80" y="1" parentComponent="SWPBTTN labels"
+                 width="72" height="24" itemColour="1040187391" fontSize="11"
+                 fontName="Calibri" enabled="0" textColour="2595468211" fontStyle="Bold"
+                 text="E2 [RELEASE]"/>
+      <Component type="ScriptLabel" id="E3 NOISES" x="155" y="1" parentComponent="SWPBTTN labels"
+                 width="72" height="24" itemColour="1040187391" fontSize="11"
+                 fontName="Calibri" enabled="0" textColour="2595468211" fontStyle="Bold"
+                 text="E3 [NOISES]"/>
+      <Component type="ScriptLabel" id="IMAGE" x="230" y="4" parentComponent="SWPBTTN labels"
+                 width="72" height="18" itemColour="637534207" fontSize="12" fontName="Calibri"
+                 textColour="4004754355" fontStyle="Bold" bgColour="541805387"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="DRY" x="305" y="4" parentComponent="SWPBTTN labels"
+                 width="72" height="18" itemColour="637534207" fontSize="12" fontName="Calibri"
+                 enabled="0" textColour="4004754355" fontStyle="Bold" bgColour="541805387"/>
+      <Component type="ScriptLabel" id="WET" x="380" y="4" parentComponent="SWPBTTN labels"
+                 width="72" height="18" itemColour="637534207" fontSize="12" fontName="Calibri"
+                 enabled="0" textColour="4004754355" fontStyle="Bold" bgColour="541805387"/>
+      <Component type="ScriptLabel" id="MASTER VOLUME" x="455" y="4" parentComponent="SWPBTTN labels"
+                 width="72" height="18" itemColour="637534207" fontSize="12" fontName="Calibri"
+                 enabled="0" textColour="4004754355" fontStyle="Bold" bgColour="541805387"
+                 text="VOLUME"/>
+    </Component>
+    <Component type="ScriptLabel" id="E1 LABEL" x="7" y="243" width="72" height="89"
+               parentComponent="KEYCTRL PANEL" text="E1" fontName="Default"
+               fontStyle="Bold" fontSize="54" textColour="2758569068" enabled="0"
+               editable="0" alignment="centredBottom" itemColour2="4278190080"
+               visible="0"/>
+    <Component type="ScriptLabel" id="E2 LABEL" x="82" y="243" width="72" height="89"
+               parentComponent="KEYCTRL PANEL" text="E2" fontName="Default"
+               fontStyle="Bold" fontSize="54" textColour="2758569068" enabled="0"
+               editable="0" alignment="centredBottom" itemColour2="4278190080"
+               visible="0"/>
+    <Component type="ScriptLabel" id="E3 LABEL" x="157" y="243" width="72" height="89"
+               parentComponent="KEYCTRL PANEL" text="E3" fontName="Default"
+               fontStyle="Bold" fontSize="54" textColour="2758569068" enabled="0"
+               editable="0" alignment="centredBottom" itemColour2="4278190080"
+               visible="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="BOTTOM PANEL" x="104" y="413" width="529"
+             height="47" borderRadius="1" bgColour="0" itemColour="3993701141"
+             borderSize="0.5" textColour="1563974762" itemColour2="4278190080">
+    <Component type="ScriptLabel" id="DEVICE NAME" x="3" y="17" width="515"
+               height="30" parentComponent="BOTTOM PANEL" text="O  R  C  H  E  S  T  O  O  L  S     P  I  A  N  O    | S |    "
+               fontName="Default" fontStyle="Bold" fontSize="22" itemColour2="0"
+               textColour="4280821800"/>
+    <Component type="ScriptFloatingTile" id="TOOLTIP TILE" x="5" y="22" height="25"
+               width="517" ContentType="TooltipPanel" bgColour="4278256390"
+               itemColour="16777215" itemColour2="4294967295" textColour="3427027801"
+               Data="{&#13;&#10;}" enabled="0" FontSize="12" parentComponent="BOTTOM PANEL"/>
+    <Component type="ScriptSlider" id="Knob1" x="115" y="5" parentComponent="BOTTOM PANEL"
+               style="Horizontal" width="292" height="12" enabled="0" visible="0"/>
+    <Component type="ScriptLabel" id="PresetName" x="115" y="4" parentComponent="BOTTOM PANEL"
+               width="292" height="14" text="Classical 1" textColour="4285176503"
+               itemColour2="4279308561" bgColour="713077731" itemColour="268435455"
+               fontName="Default" fontStyle="Bold" fontSize="18"/>
+    <Component type="ScriptLabel" id="ScriptLabel1" x="70" y="1" width="383"
+               height="20" parentComponent="BOTTOM PANEL" textColour="33554432"
+               bgColour="2837459772" itemColour="4280032284" itemColour2="4279308561"/>
+    <Component type="ScriptLabel" id="GFX - light" x="1" y="0" parentComponent="BOTTOM PANEL"
+               width="526" height="14" textColour="16777215" bgColour="177114766"
+               itemColour2="4280032284" itemColour="10921638"/>
+  </Component>
+  <Component type="ScriptPanel" id="EDITOR PANEL" x="105" y="44" width="526"
+             height="364" bgColour="16777215" itemColour="4280231216" itemColour2="4278190080"
+             borderRadius="1" textColour="2518819622" visible="0">
+    <Component type="ScriptLabel" id="bckgs - GFX " x="0" y="0" width="526"
+               height="361" parentComponent="EDITOR PANEL" textColour="0" itemColour2="0"
+               editable="0" enabled="0">
+      <Component type="ScriptLabel" id="BODY label" x="2" y="14" parentComponent="bckgs - GFX "
+                 width="15" height="111" text="E 1" multiline="1" fontName="Calibri"
+                 fontStyle="Bold" fontSize="16" textColour="4286940549" bgColour="3123917619"
+                 itemColour="267974904" editable="0" alignment="centredTop"/>
+      <Component type="ScriptLabel" id="RELEASE label" x="2" y="131" parentComponent="bckgs - GFX "
+                 width="15" height="111" text="E 2 " multiline="1" fontName="Calibri"
+                 fontStyle="Bold" fontSize="16" textColour="4286940549" bgColour="3123917619"
+                 itemColour="267974904" editable="0" alignment="centredTop"/>
+      <Component type="ScriptLabel" id="NOISES label" x="2" y="247" parentComponent="bckgs - GFX "
+                 width="15" height="111" text="E 3" multiline="1" fontName="Calibri"
+                 fontStyle="Bold" fontSize="16" textColour="4286940549" bgColour="3123917619"
+                 itemColour="267974904" editable="0" alignment="centredTop"/>
+      <Component type="ScriptLabel" id="Line 40" x="109" y="7" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="45"/>
+      <Component type="ScriptLabel" id="Line 41" x="202" y="7" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="50" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 42" x="267" y="7" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="110" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 43" x="410" y="7" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="105" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 44" x="100" y="29" parentComponent="bckgs - GFX "
+                 height="60" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 45" x="262" y="21" parentComponent="bckgs - GFX "
+                 height="94" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="E1-PITCH label" x="4" y="1" parentComponent="bckgs - GFX "
+                 text="PITCH" height="14" fontSize="10" fontName="Calibri" fontStyle="Bold"
+                 width="60" textColour="4285690482"/>
+      <Component type="ScriptLabel" id="E1-SAMPLESTART label" x="46" y="1" parentComponent="bckgs - GFX "
+                 text="SMP START" height="14" fontSize="10" fontName="Calibri"
+                 fontStyle="Bold" width="60" textColour="4285690482"/>
+      <Component type="ScriptLabel" id="E1-ENVELOPE label" x="148" y="1" parentComponent="bckgs - GFX "
+                 text="ENVELOPE" height="14" fontSize="10" fontName="Calibri"
+                 fontStyle="Bold" width="60" textColour="4285690482"/>
+      <Component type="ScriptLabel" id="E1-FILTER" x="364" y="1" parentComponent="bckgs - GFX "
+                 text="FILTER" height="14" fontSize="10" fontName="Calibri" fontStyle="Bold"
+                 width="60" textColour="4285690482"/>
+      <Component type="ScriptLabel" id="Line 46" x="51" y="29" parentComponent="bckgs - GFX "
+                 height="60" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 47" x="10" y="127" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="503" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 51" x="100" y="147" parentComponent="bckgs - GFX "
+                 height="60" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 52" x="262" y="139" parentComponent="bckgs - GFX "
+                 height="94" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 53" x="51" y="147" parentComponent="bckgs - GFX "
+                 height="60" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 48" x="10" y="244" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="503" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 54" x="100" y="264" parentComponent="bckgs - GFX "
+                 height="60" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 55" x="262" y="256" parentComponent="bckgs - GFX "
+                 height="94" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 56" x="51" y="264" parentComponent="bckgs - GFX "
+                 height="60" bgColour="4281677109" width="1" text="Line 40"/>
+      <Component type="ScriptLabel" id="Line 49" x="10" y="360" parentComponent="bckgs - GFX "
+                 height="1" bgColour="4281677109" width="503" text="Line 40"/>
+    </Component>
+    <Component type="ScriptLabel" id="BUTTON UNDER-GFX" x="0" y="0" width="526"
+               height="128" parentComponent="EDITOR PANEL" itemColour2="0" textColour="0"
+               editable="0" enabled="0">
+      <Component type="ScriptLabel" id="swb-undr 011" x="64" y="111" parentComponent="BUTTON UNDER-GFX"
+                 width="92" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 040" x="23" y="18" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 041" x="38" y="18" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 013" x="57" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 014" x="72" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 015" x="87" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 016" x="106" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 017" x="122" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 018" x="138" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 019" x="154" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 034" x="172" y="20" parentComponent="BUTTON UNDER-GFX"
+                 width="84" height="28" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 020" x="171" y="59" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 021" x="171" y="76" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 022" x="171" y="93" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 023" x="171" y="111" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 012" x="271" y="22" parentComponent="BUTTON UNDER-GFX"
+                 width="86" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 024" x="268" y="42" parentComponent="BUTTON UNDER-GFX"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 025" x="268" y="59" parentComponent="BUTTON UNDER-GFX"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 026" x="268" y="76" parentComponent="BUTTON UNDER-GFX"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 027" x="268" y="93" parentComponent="BUTTON UNDER-GFX"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 035" x="434" y="20" parentComponent="BUTTON UNDER-GFX"
+                 width="84" height="28" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 030" x="434" y="59" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 028" x="434" y="76" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 029" x="434" y="93" parentComponent="BUTTON UNDER-GFX"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 031" x="269" y="111" parentComponent="BUTTON UNDER-GFX"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 032" x="355" y="111" parentComponent="BUTTON UNDER-GFX"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 033" x="441" y="111" parentComponent="BUTTON UNDER-GFX"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 036" x="369" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 037" x="385" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 038" x="401" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 039" x="417" y="17" parentComponent="BUTTON UNDER-GFX"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+    </Component>
+    <Component type="ScriptLabel" id="LABELS E1" x="0" y="0" width="526" height="126"
+               parentComponent="EDITOR PANEL" textColour="0" itemColour2="0"
+               enabled="0">
+      <Component type="ScriptLabel" id="TRANSPOSE LABEL" x="19" y="29" parentComponent="LABELS E1"
+                 width="15" height="60" text="S H I F T" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="PITCH label" x="34" y="22" parentComponent="LABELS E1"
+                 width="15" height="73" text="P I T C H" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART FIXED label" x="53" y="19" parentComponent="LABELS E1"
+                 width="15" height="73" text="F I X E D" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART VELOCITY label" x="68" y="25" parentComponent="LABELS E1"
+                 width="15" height="65" text="V E L C T Y" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART RANDOM label" x="83" y="21" parentComponent="LABELS E1"
+                 width="15" height="73" text="R A N D O M" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV ATTACK label" x="103" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="A" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" tooltip="GAIN ENVELOPE ATTACK"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV HOLD label" x="119" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="H" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV DECAY label" x="135" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="D" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV RELEASE label" x="151" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="R" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV ATTACK CURVE label" x="181" y="57"
+                 parentComponent="LABELS E1" width="60" height="10" text="ATTACK CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV DECAY CURVE label" x="181" y="74"
+                 parentComponent="LABELS E1" width="60" height="10" text="DECAY CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV VELOCITY ATTACK LEVEL label" x="178"
+                 y="91" parentComponent="LABELS E1" width="70" height="10" text="VEL. ATTACK LEVEL"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV VELOCITY SENSITIVITY label" x="178"
+                 y="110" parentComponent="LABELS E1" width="70" height="10" text="VELOCITY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER FREQUENCY label" x="280" y="40"
+                 parentComponent="LABELS E1" width="70" height="10" text="FREQUENCY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER RESONANCE label" x="280" y="57"
+                 parentComponent="LABELS E1" width="70" height="10" text="RESONANCE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER BIPOLAR label" x="280" y="74"
+                 parentComponent="LABELS E1" width="70" height="10" text="BI-POLAR"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER GAIN label" x="280" y="91" parentComponent="LABELS E1"
+                 width="70" height="10" text="GAIN" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV ATTACK label" x="366" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="A" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" tooltip="GAIN ENVELOPE ATTACK"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV DECAY label" x="382" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="D" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV SUSTAIN label" x="398" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="S" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV RELEASE label" x="414" y="89" parentComponent="LABELS E1"
+                 width="14" height="14" text="R" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV ATTACK CURVE label" x="446" y="57"
+                 parentComponent="LABELS E1" width="60" height="10" text="ATTACK CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV DECAY CURVE label" x="446" y="74"
+                 parentComponent="LABELS E1" width="60" height="10" text="DECAY CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER ENVELOPE INTENSITY label" x="446"
+                 y="91" parentComponent="LABELS E1" width="60" height="10" text="ENV. INTENSITY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY BIPOLAR label" x="449"
+                 y="110" parentComponent="LABELS E1" width="60" height="10" text="VEL. BI-POLAR"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY GAIN label" x="362"
+                 y="110" parentComponent="LABELS E1" width="60" height="10" text="VEL. GAIN"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY FREQUENCY label" x="274"
+                 y="110" parentComponent="LABELS E1" width="60" height="10" text="VEl. FREQ."
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+    </Component>
+    <Component type="ScriptComboBox" id="E1MODELSELECT" x="61" y="109" max="5"
+               parentComponent="EDITOR PANEL" width="100" height="14" bgColour="345873821"
+               itemColour="1700025428" itemColour2="4605510" textColour="1409286143"
+               text="" items="PIANO 1&#10;PIANO 2 ECO&#10;PIANO 3 SOFT&#10;RESONANCES&#10;NOISES"/>
+    <Component type="ScriptLabel" id="E1-MODELSELECT label" x="20" y="105" parentComponent="EDITOR PANEL"
+               width="145" height="20" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               text="E1 MAP" alignment="left" enabled="0" tooltip="SELECT PIANO MODEL"
+               editable="0"/>
+    <Component type="ScriptSlider" id="E1-TRANSPOSE" x="20" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 TRANSPOSE" parameterId="TransposeAmount" textColour="16777215"
+               itemColour2="4282795590" itemColour="1706120372" bgColour="754974719"
+               min="-24" max="24" stepSize="1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E1-SAMPLESTART2" x="35" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 PITCH" parameterId="Intensity" textColour="16777215"
+               itemColour2="4282795590" itemColour="1706120372" bgColour="754974719"
+               min="-1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E1-SAMPLESTART" x="54" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 SAMPLESTART" parameterId="Intensity" textColour="16777215"
+               itemColour2="4282795590" itemColour="1700050055" bgColour="754974719"/>
+    <Component type="ScriptButton" id="E1-SMPSTART ON" x="56" y="91" width="10"
+               height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E1 FIXED SAMPLESTART - ON/OFF" processorId="E1 SAMPLESTART"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E1-SAMPLESTART VELOCITY" x="69" y="14"
+               parentComponent="EDITOR PANEL" style="Vertical" width="13" height="90"
+               showTextBox="0" showValuePopup="Right" processorId="E1 VELOCITY SMPSTART"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700050055"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E1-VELOCITY SMPSTART ON" x="71" y="91"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E1 VELOCITY SAMPLESTART - ON/OFF"
+               processorId="E1 VELOCITY SMPSTART" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E1-VELOCITY SAMPLESTART INVERT" x="71"
+               y="17" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               processorId="E1 VELOCITY SMPSTART" parameterId="Inverted" text="B-VELOCITY SENS INVERT"
+               tooltip="E1 VELOCITY SAMPLESTART INVERT"/>
+    <Component type="ScriptSlider" id="E1-SAMPLESTART RANDOM" x="84" y="14"
+               parentComponent="EDITOR PANEL" style="Vertical" width="13" height="90"
+               showTextBox="0" showValuePopup="Right" processorId="E1 RANDOM SMPSTART "
+               parameterId="Intensity" bgColour="754974719" itemColour="1700050055"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E1-RANDOM SAMPLESTART ON" x="86" y="91"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E1 RANDOM SAMPLESTART - ON/OFF"
+               processorId="E1 RANDOM SMPSTART " parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E1-GENV ATTACK " x="103" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 GAIN ENVELOPE" parameterId="Attack" mode="Time"
+               max="5000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-GENV HOLD" x="119" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 GAIN ENVELOPE" parameterId="Hold" mode="Time"
+               max="40000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-GENV DECAY" x="135" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 GAIN ENVELOPE" parameterId="Decay" mode="Time"
+               max="40000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"
+               tooltip="SHOW VIRTUAL KEYBOARD "/>
+    <Component type="ScriptSlider" id="E1-GENV RELEASE" x="151" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 GAIN ENVELOPE" parameterId="Release" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="E1-GENV DISPLAY" x="169" y="14"
+               parentComponent="EDITOR PANEL" ContentType="AHDSRGraph" bgColour="754974719"
+               itemColour="1708103756" itemColour2="2144304652" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;E1 GAIN ENVELOPE&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="0" width="90" height="38" enabled="0"/>
+    <Component type="ScriptSlider" id="E1-GENV ATTACK CURVE" x="168" y="55"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E1 GAIN ENVELOPE"
+               parameterId="AttackCurve" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215" middlePosition="0.5"
+               defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="E1-GENV DECAY CURVE" x="168" y="72" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="91" height="14" showTextBox="0" showValuePopup="Right"
+               processorId="E1 GAIN ENVELOPE" parameterId="DecayCurve" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"
+               middlePosition="0.5" defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="E1-GENV ATTACK LEVEL" x="168" y="89"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E1-GENV ATTACK LEVEL"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E1-VELOCITY ATTACK LEVEL ON" x="171"
+               y="91" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E1 VELOCITY ATTACK LEVEL - ON/OFF" processorId="E1-GENV ATTACK LEVEL"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E1-VELOCITY SENSITIVITY" x="168" y="107"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E1 VELOCITY SENSITIVITY"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E1-VELOCITY SENSITIVITY ON" x="171" y="110"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E1 VELOCITY SENSITIVITY - ON/OFF"
+               processorId="E1 VELOCITY SENSITIVITY" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E1-VELOCITY SENSITIVITY INVERT" x="245"
+               y="110" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               processorId="E1 VELOCITY SENSITIVITY" parameterId="Inverted"
+               tooltip="BODY VELOCITY SENS INVERT"/>
+    <Component type="ScriptLabel" id="E1-FILTER SECTION" x="265" y="15" parentComponent="EDITOR PANEL"
+               width="98" height="20" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               text="" alignment="left" enabled="0"/>
+    <Component type="ScriptComboBox" id="E1FILTERSELECT" x="269" y="19" parentComponent="EDITOR PANEL"
+               width="90" height="14" bgColour="352321535" itemColour="1700238042"
+               itemColour2="1118481" textColour="1409286143" text="" items="&#10;_1POLE LP&#10;_1POLE HP&#10;_BIQUAD LP&#10;_BIQUAD HP&#10;_SVF LP&#10;_SVF HP&#10;_MOOG LP&#10;_BIQUAD REZ&#10;_LADDER 4P&#10;_LO SHELF&#10;_HI SHELF&#10;_PEAK EQ&#10;_ALLPASS&#10;_RINGMOD"
+               max="14"/>
+    <Component type="ScriptButton" id="E1-FILTER ON" x="271" y="20" width="10"
+               height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" processorId="E1 FILTER" parameterId="Enabled"
+               tooltip="E1 FILTER - ON/OFF"/>
+    <Component type="ScriptSlider" id="E1-FILTER FREQUENCY" x="265" y="38" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E1 FILTER" parameterId="Frequency" mode="Frequency"
+               min="20" max="20000" stepSize="1" suffix=" Hz" middlePosition="1500"
+               bgColour="754974719" itemColour="1700238042" itemColour2="4282795590"
+               textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-FILTER RESONANCE" x="265" y="55" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E1 FILTER" parameterId="Q" min="0.3" max="8" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-FILTER BIPOLAR" x="265" y="72" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E1 FILTER" parameterId="BipolarIntensity" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-1"/>
+    <Component type="ScriptSlider" id="E1-FILTER GAIN" x="265" y="89" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E1 FILTER" parameterId="Gain" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-18" max="18" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E1-FENV ATTACK" x="366" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 FILTER ENVELOPE" parameterId="Attack" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-FENV DECAY" x="382" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 FILTER ENVELOPE" parameterId="Decay" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-FENV SUSTAIN" x="398" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 FILTER ENVELOPE" parameterId="Sustain" mode="Decibel"
+               max="0" stepSize="1" suffix=" ms" middlePosition="-50" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-90"/>
+    <Component type="ScriptSlider" id="E1-FENV RELEASE" x="414" y="14" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E1 FILTER ENVELOPE" parameterId="Release" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="E1-FENV DISPLAY" x="431" y="14"
+               parentComponent="EDITOR PANEL" ContentType="AHDSRGraph" bgColour="754974719"
+               itemColour="1700238042" itemColour2="2133103611" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;E1 FILTER ENVELOPE&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="0" width="90" height="38" enabled="0"/>
+    <Component type="ScriptLabel" id="E1-FILTER ENVELOPE ON label" x="462" y="19"
+               parentComponent="EDITOR PANEL" width="56" height="14" text="FILTER ENVELOPE ON"
+               editable="0" multiline="1" fontName="Calibri" fontStyle="Bold"
+               itemColour2="0" textColour="4290756543" alignment="left" itemColour="4285689968"
+               enabled="0" fontSize="9"/>
+    <Component type="ScriptButton" id="E1-FILTER ENVELOPE ON" x="506" y="21"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E1 FILTER ENVELOPE ATTACK LEVEL - ON/OFF"
+               processorId="E1 FILTER ENVELOPE" parameterId="Enabled" text="B-ENV ON"/>
+    <Component type="ScriptSlider" id="E1-FENV ATTACK CURVE" x="431" y="55"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E1 FILTER ENVELOPE"
+               parameterId="AttackCurve" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-FENV DECAY CURVE" x="431" y="72" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="91" height="14" showTextBox="0" showValuePopup="Right"
+               processorId="E1 FILTER ENVELOPE" parameterId="DecayCurve" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E1-FENV ATTACK LEVEL" x="431" y="89"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E1 FILTER ENVELOPE"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" min="-3" max="3"
+               middlePosition="0"/>
+    <Component type="ScriptSlider" id="E1-FILTER FREQUENCY V_SENS" x="265" y="107"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="83"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E1 FILTER VELOCITY FREQUENCY"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E1-FILTER FREQUENCY V-SENS ON" x="269"
+               y="110" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E1 FILTER FREQUENCY VELOCITY SENSITIVITY - ON/OFF" processorId="E1 FILTER VELOCITY FREQUENCY"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E1-FILTER FREQUENCY V-SENS INVERT" x="335"
+               y="110" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E1 FILTER FREQUENCY VELOCITY SENSITIVITY INVERT" processorId="E1 FILTER VELOCITY FREQUENCY"
+               parameterId="Inverted"/>
+    <Component type="ScriptSlider" id="E1-FILTER GAIN V-SENS" x="351" y="107"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="84"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E1 FILTER VELOCITY GAIN"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E1-FILTER GAIN V-SENS ON" x="356" y="110"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E1 FILTER GAIN VELOCITY SENSITIVITY - ON/OFF"
+               processorId="E1 FILTER VELOCITY GAIN" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E1-FILTER GAIN V-SENS INVERT" x="422"
+               y="110" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E1 FILTER GAIN VELOCITY SENSITIVITY INVERT" processorId="E1 FILTER VELOCITY GAIN"
+               parameterId="Inverted"/>
+    <Component type="ScriptSlider" id="E1-FILTER BIPLOAR V-SENS" x="438" y="107"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="84"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E1 FILTER VELOCITY BIPOLAR"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E1-FILTER BIPOLAR V-SENS ON" x="441"
+               y="110" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E1 FILTER BIPLOAR VELOCITY SENSITIVITY - ON/OFF" processorId="E1 FILTER VELOCITY BIPOLAR"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E1-FILTER BIPOLAR V-SENS INVERT" x="509"
+               y="110" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E1 FILTER BIPOLAR VELOCITY SENSITIVITY INVERT" processorId="E1 FILTER VELOCITY BIPOLAR"
+               parameterId="Inverted"/>
+    <Component type="ScriptLabel" id="BUTTON UNDER-GFX1" x="-1" y="123" width="526"
+               height="128" parentComponent="EDITOR PANEL" itemColour2="0" textColour="0"
+               editable="0" enabled="0" text="BUTTON UNDER-GFX">
+      <Component type="ScriptLabel" id="swb-undr 042" x="65" y="106" parentComponent="BUTTON UNDER-GFX1"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 043" x="24" y="12" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 044" x="39" y="12" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 045" x="58" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 046" x="73" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 047" x="88" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 048" x="107" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 049" x="123" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 050" x="139" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 051" x="155" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 052" x="173" y="14" parentComponent="BUTTON UNDER-GFX1"
+                 width="84" height="28" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 053" x="172" y="53" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 054" x="172" y="70" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 055" x="172" y="87" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 056" x="172" y="106" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 057" x="272" y="15" parentComponent="BUTTON UNDER-GFX1"
+                 width="86" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 058" x="269" y="35" parentComponent="BUTTON UNDER-GFX1"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 059" x="269" y="52" parentComponent="BUTTON UNDER-GFX1"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 060" x="269" y="69" parentComponent="BUTTON UNDER-GFX1"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 061" x="269" y="86" parentComponent="BUTTON UNDER-GFX1"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 062" x="435" y="14" parentComponent="BUTTON UNDER-GFX1"
+                 width="84" height="28" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 063" x="435" y="53" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 064" x="435" y="70" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 065" x="435" y="87" parentComponent="BUTTON UNDER-GFX1"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 066" x="270" y="105" parentComponent="BUTTON UNDER-GFX1"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 067" x="356" y="105" parentComponent="BUTTON UNDER-GFX1"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 068" x="442" y="105" parentComponent="BUTTON UNDER-GFX1"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 069" x="370" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 070" x="386" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 071" x="402" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 072" x="418" y="11" parentComponent="BUTTON UNDER-GFX1"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+    </Component>
+    <Component type="ScriptLabel" id="LABELS E2" x="0" y="117" width="526" height="126"
+               parentComponent="EDITOR PANEL" textColour="0" itemColour2="0"
+               enabled="0" text="LABELS E1">
+      <Component type="ScriptLabel" id="TRANSPOSE LABEL1" x="19" y="29" parentComponent="LABELS E2"
+                 width="15" height="60" text="S H I F T" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="PITCH label1" x="34" y="22" parentComponent="LABELS E2"
+                 width="15" height="73" text="P I T C H" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART FIXED label1" x="53" y="19" parentComponent="LABELS E2"
+                 width="15" height="73" text="F I X E D" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART VELOCITY label1" x="68" y="25"
+                 parentComponent="LABELS E2" width="15" height="65" text="V E L C T Y"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART RANDOM label1" x="83" y="21" parentComponent="LABELS E2"
+                 width="15" height="73" text="R A N D O M" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV ATTACK label1" x="103" y="89" parentComponent="LABELS E2"
+                 width="14" height="14" text="A" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" tooltip="GAIN ENVELOPE ATTACK"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV HOLD label1" x="119" y="89" parentComponent="LABELS E2"
+                 width="14" height="14" text="H" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV DECAY label1" x="135" y="89" parentComponent="LABELS E2"
+                 width="14" height="14" text="D" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV RELEASE label1" x="151" y="89"
+                 parentComponent="LABELS E2" width="14" height="14" text="R" editable="0"
+                 multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV ATTACK CURVE label1" x="181" y="57"
+                 parentComponent="LABELS E2" width="60" height="10" text="ATTACK CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV DECAY CURVE label1" x="181" y="74"
+                 parentComponent="LABELS E2" width="60" height="10" text="DECAY CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV VELOCITY ATTACK LEVEL label1" x="178"
+                 y="91" parentComponent="LABELS E2" width="70" height="10" text="VEL. ATTACK LEVEL"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV VELOCITY SENSITIVITY label1" x="178"
+                 y="110" parentComponent="LABELS E2" width="70" height="10" text="VELOCITY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER FREQUENCY label1" x="280" y="40"
+                 parentComponent="LABELS E2" width="70" height="10" text="FREQUENCY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER RESONANCE label1" x="280" y="57"
+                 parentComponent="LABELS E2" width="70" height="10" text="RESONANCE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER BIPOLAR label1" x="280" y="74"
+                 parentComponent="LABELS E2" width="70" height="10" text="BI-POLAR"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER GAIN label1" x="280" y="91" parentComponent="LABELS E2"
+                 width="70" height="10" text="GAIN" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV ATTACK label1" x="366" y="89" parentComponent="LABELS E2"
+                 width="14" height="14" text="A" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" tooltip="GAIN ENVELOPE ATTACK"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV DECAY label1" x="382" y="89" parentComponent="LABELS E2"
+                 width="14" height="14" text="D" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV SUSTAIN label1" x="398" y="89"
+                 parentComponent="LABELS E2" width="14" height="14" text="S" editable="0"
+                 multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV RELEASE label1" x="414" y="89"
+                 parentComponent="LABELS E2" width="14" height="14" text="R" editable="0"
+                 multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV ATTACK CURVE label1" x="446" y="57"
+                 parentComponent="LABELS E2" width="60" height="10" text="ATTACK CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV DECAY CURVE label1" x="446" y="74"
+                 parentComponent="LABELS E2" width="60" height="10" text="DECAY CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER ENVELOPE INTENSITY label1" x="446"
+                 y="91" parentComponent="LABELS E2" width="60" height="10" text="ENV. INTENSITY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY BIPOLAR label1" x="449"
+                 y="110" parentComponent="LABELS E2" width="60" height="10" text="VEL. BI-POLAR"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY GAIN label1" x="362"
+                 y="110" parentComponent="LABELS E2" width="60" height="10" text="VEL. GAIN"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY FREQUENCY label1" x="274"
+                 y="110" parentComponent="LABELS E2" width="60" height="10" text="VEl. FREQ."
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+    </Component>
+    <Component type="ScriptLabel" id="E2-RELEASE TRIGGER label" x="2" y="202"
+               parentComponent="EDITOR PANEL" width="15" height="40" itemColour="1207959551"
+               fontSize="10" fontName="Calibri" textColour="4122194867" fontStyle="Bold"
+               bgColour="3552822" text="R T" alignment="centredTop" enabled="0"
+               tooltip="SELECT PIANO MODEL" editable="0"/>
+    <Component type="ScriptButton" id="E2-RELEASE TRIGGER ON" x="5" y="229"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E2 RELEASE TRIGGER MODE- ON/OFF"
+               processorId="E2 RELEASE TRIGGER" parameterId="Enabled"/>
+    <Component type="ScriptComboBox" id="E2MODELSELECT" x="61" y="226" max="5"
+               parentComponent="EDITOR PANEL" width="100" height="14" bgColour="345873821"
+               itemColour="1700025428" itemColour2="4605510" textColour="1409286143"
+               text="" items="PIANO 1&#10;PIANO 2 ECO&#10;PIANO 3 SOFT&#10;RESONANCES&#10;NOISES"/>
+    <Component type="ScriptLabel" id="E2-MODELSELECT label" x="20" y="222" parentComponent="EDITOR PANEL"
+               width="145" height="20" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               text="E2 MAP" alignment="left" enabled="0" tooltip="SELECT PIANO MODEL"
+               editable="0"/>
+    <Component type="ScriptSlider" id="E2-TRANSPOSE" x="20" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 TRANSPOSE" parameterId="TransposeAmount" textColour="16777215"
+               itemColour2="4282795590" itemColour="1706120372" bgColour="754974719"
+               min="-24" max="24" stepSize="1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E2-PITCH" x="35" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 PITCH" parameterId="Intensity" textColour="16777215"
+               itemColour2="4282795590" itemColour="1706120372" bgColour="754974719"
+               min="-1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E2-SAMPLESTART" x="54" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 SAMPLESTART" parameterId="Intensity" textColour="16777215"
+               itemColour2="4282795590" itemColour="1700050055" bgColour="754974719"/>
+    <Component type="ScriptButton" id="E2-SMPSTART ON" x="56" y="208" width="10"
+               height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E2 FIXED SAMPLESTART - ON/OFF" processorId="E2 SAMPLESTART"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E2-SAMPLESTART VELOCITY" x="69" y="131"
+               parentComponent="EDITOR PANEL" style="Vertical" width="13" height="90"
+               showTextBox="0" showValuePopup="Right" processorId="E2 VELOCITY SMPSTART"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700050055"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E2-VELOCITY SMPSTART ON" x="71" y="208"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E2 VELOCITY SAMPLESTART - ON/OFF"
+               processorId="E2 VELOCITY SMPSTART" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E2-VELOCITY SAMPLESTART INVERT" x="71"
+               y="134" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               processorId="E2 VELOCITY SMPSTART" parameterId="Inverted" text="B-VELOCITY SENS INVERT"
+               tooltip="E2 VELOCITY SAMPLESTART INVERT"/>
+    <Component type="ScriptSlider" id="E2-SAMPLESTART RANDOM" x="84" y="131"
+               parentComponent="EDITOR PANEL" style="Vertical" width="13" height="90"
+               showTextBox="0" showValuePopup="Right" processorId="E2 RANDOM SMPSTART"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700050055"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E2-RANDOM SAMPLESTART ON" x="86" y="208"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E2 RANDOM SAMPLESTART - ON/OFF"
+               processorId="E2 RANDOM SMPSTART" parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E2-GENV ATTACK" x="103" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 GAIN ENVELOPE" parameterId="Attack" mode="Time"
+               max="5000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-GENV HOLD" x="119" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 GAIN ENVELOPE" parameterId="Hold" mode="Time"
+               max="40000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-GENV DECAY" x="135" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 GAIN ENVELOPE" parameterId="Decay" mode="Time"
+               max="40000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"
+               tooltip="SHOW VIRTUAL KEYBOARD "/>
+    <Component type="ScriptSlider" id="E2-GENV RELEASE" x="151" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 GAIN ENVELOPE" parameterId="Release" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="E2-GENV DISPLAY" x="169" y="131"
+               parentComponent="EDITOR PANEL" ContentType="AHDSRGraph" bgColour="754974719"
+               itemColour="1708103756" itemColour2="2144304652" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;E2 GAIN ENVELOPE&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="0" width="90" height="38" enabled="0"/>
+    <Component type="ScriptSlider" id="E2-GENV ATTACK CURVE" x="168" y="172"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E2 GAIN ENVELOPE"
+               parameterId="AttackCurve" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215" middlePosition="0.5"
+               defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="E2-GENV DECAY CURVE" x="168" y="189"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E2 GAIN ENVELOPE"
+               parameterId="DecayCurve" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215" middlePosition="0.5"
+               defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="E2-GENV ATTACK LEVEL" x="168" y="206"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E2 GENV ATTACK LEVEL"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E2-VELOCITY ATTACK LEVEL ON" x="171"
+               y="208" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E2 VELOCITY ATTACK LEVEL - ON/OFF" processorId="E2 GENV ATTACK LEVEL"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E2-VELOCITY SENSITIVITY" x="168" y="224"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E2 VELOCITY SENSITIVITY"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E2-VELOCITY SENSITIVITY ON" x="171" y="227"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E2 VELOCITY SENSITIVITY - ON/OFF"
+               processorId="E2 VELOCITY SENSITIVITY" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E2-VELOCITY SENSITIVITY INVERT" x="245"
+               y="227" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               processorId="E2 VELOCITY SENSITIVITY" parameterId="Inverted"
+               tooltip="E2 VELOCITY SENS INVERT"/>
+    <Component type="ScriptLabel" id="E2-FILTER SECTION" x="265" y="132" parentComponent="EDITOR PANEL"
+               width="98" height="20" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               text="" alignment="left" enabled="0"/>
+    <Component type="ScriptComboBox" id="E2FILTERSELECT" x="269" y="136" parentComponent="EDITOR PANEL"
+               width="90" height="14" bgColour="352321535" itemColour="1700238042"
+               itemColour2="1118481" textColour="1409286143" text="" items="&#10;_1POLE LP&#10;_1POLE HP&#10;_BIQUAD LP&#10;_BIQUAD HP&#10;_SVF LP&#10;_SVF HP&#10;_MOOG LP&#10;_BIQUAD REZ&#10;_LADDER 4P&#10;_LO SHELF&#10;_HI SHELF&#10;_PEAK EQ&#10;_ALLPASS&#10;_RINGMOD"
+               max="14"/>
+    <Component type="ScriptButton" id="E2-FILTER ON" x="271" y="137" width="10"
+               height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" processorId="E2 FILTER" parameterId="Enabled"
+               tooltip="E2 FILTER - ON/OFF"/>
+    <Component type="ScriptSlider" id="E2-FILTER FREQUENCY" x="265" y="155"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="98"
+               height="14" showTextBox="0" showValuePopup="Above" processorId="E2 FILTER"
+               parameterId="Frequency" mode="Frequency" min="20" max="20000"
+               stepSize="1" suffix=" Hz" middlePosition="1500" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-FILTER RESONANCE" x="265" y="172"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="98"
+               height="14" showTextBox="0" showValuePopup="Above" processorId="E2 FILTER"
+               parameterId="Q" min="0.3" max="8" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-FILTER BIPOLAR" x="265" y="189" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E2 FILTER" parameterId="BipolarIntensity" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-1"/>
+    <Component type="ScriptSlider" id="E2-FILTER GAIN" x="265" y="206" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E2 FILTER" parameterId="Gain" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-18" max="18" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E2-FENV ATTACK" x="366" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 FILTER ENVELOPE" parameterId="Attack" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-FENV DECAY" x="382" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 FILTER ENVELOPE" parameterId="Decay" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-FENV SUSTAIN" x="398" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 FILTER ENVELOPE" parameterId="Sustain" mode="Decibel"
+               max="0" stepSize="1" suffix=" ms" middlePosition="-50" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-90"/>
+    <Component type="ScriptSlider" id="E2-FENV RELEASE" x="414" y="131" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E2 FILTER ENVELOPE" parameterId="Release" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="E2-FENV DISPLAY" x="431" y="131"
+               parentComponent="EDITOR PANEL" ContentType="AHDSRGraph" bgColour="754974719"
+               itemColour="1700238042" itemColour2="2133103611" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;E2 FILTER ENVELOPE&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="0" width="90" height="38" enabled="0"/>
+    <Component type="ScriptLabel" id="E2-FILTER ENVELOPE ON label" x="462" y="136"
+               parentComponent="EDITOR PANEL" width="56" height="14" text="FILTER ENVELOPE ON"
+               editable="0" multiline="1" fontName="Calibri" fontStyle="Bold"
+               itemColour2="0" textColour="4290756543" alignment="left" itemColour="4285689968"
+               enabled="0" fontSize="9"/>
+    <Component type="ScriptButton" id="E2-FILTER ENVELOPE ON" x="506" y="138"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E2 FILTER ENVELOPE ATTACK LEVEL - ON/OFF"
+               processorId="E2 FILTER ENVELOPE" parameterId="Enabled" text="B-ENV ON"/>
+    <Component type="ScriptSlider" id="E2-FENV ATTACK CURVE" x="431" y="172"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E2 FILTER ENVELOPE"
+               parameterId="AttackCurve" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-FENV DECAY CURVE" x="431" y="189"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E2 FILTER ENVELOPE"
+               parameterId="DecayCurve" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E2-FENV ATTACK LEVEL" x="431" y="206"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E2 FILTER ENVELOPE"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" min="-3" max="3"
+               middlePosition="0"/>
+    <Component type="ScriptSlider" id="E2-FILTER FREQUENCY V_SENS" x="265" y="224"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="83"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E2 FILTER VELOCITY FREQUENCY"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E2-FILTER FREQUENCY V-SENS ON" x="269"
+               y="227" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E2 FILTER FREQUENCY VELOCITY SENSITIVITY - ON/OFF" processorId="E2 FILTER VELOCITY FREQUENCY"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E2-FILTER FREQUENCY V-SENS INVERT" x="335"
+               y="227" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E2 FILTER FREQUENCY VELOCITY SENSITIVITY INVERT" processorId="E2 FILTER VELOCITY FREQUENCY"
+               parameterId="Inverted"/>
+    <Component type="ScriptSlider" id="E2-FILTER GAIN V-SENS" x="351" y="224"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="84"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E2 FILTER VELOCITY GAIN"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E2-FILTER GAIN V-SENS ON" x="356" y="227"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E2 FILTER GAIN VELOCITY SENSITIVITY - ON/OFF"
+               processorId="E2 FILTER VELOCITY GAIN" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E2-FILTER GAIN V-SENS INVERT" x="422"
+               y="227" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E2 FILTER GAIN VELOCITY SENSITIVITY INVERT" processorId="E2 FILTER VELOCITY GAIN"
+               parameterId="Inverted"/>
+    <Component type="ScriptSlider" id="E2-FILTER BIPLOAR V-SENS" x="438" y="224"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="84"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E2 FILTER VELOCITY BIPOLAR"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E2-FILTER BIPOLAR V-SENS ON" x="441"
+               y="227" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E2 FILTER BIPLOAR VELOCITY SENSITIVITY - ON/OFF" processorId="E2 FILTER VELOCITY BIPOLAR"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E2-FILTER BIPOLAR V-SENS INVERT" x="509"
+               y="227" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E2 FILTER BIPOLAR VELOCITY SENSITIVITY INVERT" processorId="E2 FILTER VELOCITY BIPOLAR"
+               parameterId="Inverted"/>
+    <Component type="ScriptLabel" id="BUTTON UNDER-GFX2" x="-1" y="240" width="526"
+               height="128" parentComponent="EDITOR PANEL" itemColour2="0" textColour="0"
+               editable="0" enabled="0" text="BUTTON UNDER-GFX">
+      <Component type="ScriptLabel" id="swb-undr 073" x="65" y="105" parentComponent="BUTTON UNDER-GFX2"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 074" x="24" y="11" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 075" x="39" y="11" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 076" x="58" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 077" x="73" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 078" x="88" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 079" x="107" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 080" x="123" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 081" x="139" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 082" x="155" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 083" x="173" y="13" parentComponent="BUTTON UNDER-GFX2"
+                 width="84" height="28" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 084" x="172" y="52" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 085" x="172" y="69" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 086" x="172" y="86" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 087" x="172" y="105" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 088" x="272" y="14" parentComponent="BUTTON UNDER-GFX2"
+                 width="86" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 089" x="269" y="34" parentComponent="BUTTON UNDER-GFX2"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 090" x="269" y="51" parentComponent="BUTTON UNDER-GFX2"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 091" x="269" y="68" parentComponent="BUTTON UNDER-GFX2"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 092" x="269" y="85" parentComponent="BUTTON UNDER-GFX2"
+                 width="92" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 093" x="435" y="13" parentComponent="BUTTON UNDER-GFX2"
+                 width="84" height="28" bgColour="1564688175" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 094" x="435" y="52" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 095" x="435" y="69" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 096" x="435" y="86" parentComponent="BUTTON UNDER-GFX2"
+                 width="85" height="7" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 097" x="270" y="104" parentComponent="BUTTON UNDER-GFX2"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 098" x="356" y="104" parentComponent="BUTTON UNDER-GFX2"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 099" x="442" y="104" parentComponent="BUTTON UNDER-GFX2"
+                 width="77" height="8" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 0100" x="370" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 0101" x="386" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 0102" x="402" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 0103" x="418" y="10" parentComponent="BUTTON UNDER-GFX2"
+                 width="7" height="84" bgColour="1564688175" itemColour2="0" textColour="16777215"
+                 itemColour="2567227" text="swb-undr 01" enabled="0"/>
+    </Component>
+    <Component type="ScriptLabel" id="LABELS E3" x="0" y="234" width="526" height="126"
+               parentComponent="EDITOR PANEL" textColour="0" itemColour2="0"
+               enabled="0" text="LABELS E1">
+      <Component type="ScriptLabel" id="TRANSPOSE LABEL2" x="19" y="29" parentComponent="LABELS E3"
+                 width="15" height="60" text="S H I F T" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="PITCH label2" x="34" y="22" parentComponent="LABELS E3"
+                 width="15" height="73" text="P I T C H" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART FIXED label2" x="53" y="19" parentComponent="LABELS E3"
+                 width="15" height="73" text="F I X E D" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART VELOCITY label2" x="68" y="25"
+                 parentComponent="LABELS E3" width="15" height="65" text="V E L C T Y"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="SSTART RANDOM label2" x="83" y="21" parentComponent="LABELS E3"
+                 width="15" height="73" text="R A N D O M" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV ATTACK label2" x="103" y="89" parentComponent="LABELS E3"
+                 width="14" height="14" text="A" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" tooltip="GAIN ENVELOPE ATTACK"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV HOLD label2" x="119" y="89" parentComponent="LABELS E3"
+                 width="14" height="14" text="H" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV DECAY label2" x="135" y="89" parentComponent="LABELS E3"
+                 width="14" height="14" text="D" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV RELEASE label2" x="151" y="89"
+                 parentComponent="LABELS E3" width="14" height="14" text="R" editable="0"
+                 multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV ATTACK CURVE label2" x="181" y="57"
+                 parentComponent="LABELS E3" width="60" height="10" text="ATTACK CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV DECAY CURVE label2" x="181" y="74"
+                 parentComponent="LABELS E3" width="60" height="10" text="DECAY CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV VELOCITY ATTACK LEVEL label2" x="178"
+                 y="91" parentComponent="LABELS E3" width="70" height="10" text="VEL. ATTACK LEVEL"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-GENV VELOCITY SENSITIVITY label2" x="178"
+                 y="110" parentComponent="LABELS E3" width="70" height="10" text="VELOCITY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER FREQUENCY label2" x="280" y="40"
+                 parentComponent="LABELS E3" width="70" height="10" text="FREQUENCY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER RESONANCE label2" x="280" y="57"
+                 parentComponent="LABELS E3" width="70" height="10" text="RESONANCE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER BIPOLAR label2" x="280" y="74"
+                 parentComponent="LABELS E3" width="70" height="10" text="BI-POLAR"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER GAIN label2" x="280" y="91" parentComponent="LABELS E3"
+                 width="70" height="10" text="GAIN" editable="0" multiline="1"
+                 fontName="Calibri" fontSize="9" fontStyle="Bold" itemColour2="0"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV ATTACK label2" x="366" y="89" parentComponent="LABELS E3"
+                 width="14" height="14" text="A" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" tooltip="GAIN ENVELOPE ATTACK"
+                 textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV DECAY label2" x="382" y="89" parentComponent="LABELS E3"
+                 width="14" height="14" text="D" editable="0" multiline="1" fontName="Calibri"
+                 fontSize="9" fontStyle="Bold" itemColour2="0" textColour="4290756543"
+                 enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV SUSTAIN label2" x="398" y="89"
+                 parentComponent="LABELS E3" width="14" height="14" text="S" editable="0"
+                 multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV RELEASE label2" x="414" y="89"
+                 parentComponent="LABELS E3" width="14" height="14" text="R" editable="0"
+                 multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV ATTACK CURVE label2" x="446" y="57"
+                 parentComponent="LABELS E3" width="60" height="10" text="ATTACK CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FENV DECAY CURVE label2" x="446" y="74"
+                 parentComponent="LABELS E3" width="60" height="10" text="DECAY CURVE"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER ENVELOPE INTENSITY label2" x="446"
+                 y="91" parentComponent="LABELS E3" width="60" height="10" text="ENV. INTENSITY"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY BIPOLAR label2" x="449"
+                 y="110" parentComponent="LABELS E3" width="60" height="10" text="VEL. BI-POLAR"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY GAIN label2" x="362"
+                 y="110" parentComponent="LABELS E3" width="60" height="10" text="VEL. GAIN"
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+      <Component type="ScriptLabel" id="B-FILTER VELOCITY FREQUENCY label2" x="274"
+                 y="110" parentComponent="LABELS E3" width="60" height="10" text="VEl. FREQ."
+                 editable="0" multiline="1" fontName="Calibri" fontSize="9" fontStyle="Bold"
+                 itemColour2="0" textColour="4290756543" enabled="0"/>
+    </Component>
+    <Component type="ScriptButton" id="E3-RELEASE TRIGGER ON" x="5" y="345"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E3 RELEASE TRIGGER MODE - ON/OFF"
+               processorId="E3 RELEASE TRIGGER" parameterId="Enabled"/>
+    <Component type="ScriptLabel" id="E3-RELEASE TRIGGER label" x="2" y="318"
+               parentComponent="EDITOR PANEL" width="15" height="40" itemColour="1207959551"
+               fontSize="10" fontName="Calibri" textColour="4122194867" fontStyle="Bold"
+               bgColour="3552822" text="R T" alignment="centredTop" enabled="0"
+               tooltip="SELECT PIANO MODEL" editable="0"/>
+    <Component type="ScriptComboBox" id="E3MODELSELECT" x="61" y="342" max="5"
+               parentComponent="EDITOR PANEL" width="100" height="14" bgColour="345873821"
+               itemColour="1700025428" itemColour2="4605510" textColour="1409286143"
+               text="" items="PIANO 1&#10;PIANO 2 ECO&#10;PIANO 3 SOFT&#10;RESONANCES&#10;NOISES"/>
+    <Component type="ScriptLabel" id="E3-MODELSELECT label" x="20" y="338" parentComponent="EDITOR PANEL"
+               width="145" height="20" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               text="E3 MAP" alignment="left" enabled="0" tooltip="SELECT PIANO MODEL"
+               editable="0"/>
+    <Component type="ScriptSlider" id="E3-TRANSPOSE" x="20" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 TRANSPOSE" parameterId="TransposeAmount" textColour="16777215"
+               itemColour2="4282795590" itemColour="1706120372" bgColour="754974719"
+               min="-24" max="24" stepSize="1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E3-PITCH" x="35" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 PITCH" parameterId="Intensity" textColour="16777215"
+               itemColour2="4282795590" itemColour="1706120372" bgColour="754974719"
+               min="-1" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E3-SAMPLESTART" x="54" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="13" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 SAMPLESTART" parameterId="Intensity" textColour="16777215"
+               itemColour2="4282795590" itemColour="1700050055" bgColour="754974719"/>
+    <Component type="ScriptButton" id="E3-SMPSTART ON" x="56" y="324" width="10"
+               height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E3 FIXED SAMPLESTART - ON/OFF" processorId="E3 SAMPLESTART"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E3-SAMPLESTART VELOCITY" x="69" y="247"
+               parentComponent="EDITOR PANEL" style="Vertical" width="13" height="90"
+               showTextBox="0" showValuePopup="Right" processorId="E3 VELOCITY SMPSTART"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700050055"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E3-VELOCITY SMPSTART ON" x="71" y="324"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E3 VELOCITY SAMPLESTART - ON/OFF"
+               processorId="E3 VELOCITY SMPSTART" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E3-VELOCITY SAMPLESTART INVERT" x="71"
+               y="250" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               processorId="E3 VELOCITY SMPSTART" parameterId="Inverted" text="B-VELOCITY SENS INVERT"
+               tooltip="E3 VELOCITY SAMPLESTART INVERT"/>
+    <Component type="ScriptSlider" id="E3-SAMPLESTART RANDOM" x="84" y="247"
+               parentComponent="EDITOR PANEL" style="Vertical" width="13" height="90"
+               showTextBox="0" showValuePopup="Right" processorId="E3 RANDOM SMPSTART"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700050055"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E3-RANDOM SAMPLESTART ON" x="86" y="324"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.045" tooltip="E3 RANDOM SAMPLESTART - ON/OFF"
+               processorId="E3 RANDOM SMPSTART" parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E3-GENV ATTACK" x="103" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 GAIN ENVELOPE" parameterId="Attack" mode="Time"
+               max="5000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-GENV HOLD" x="119" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 GAIN ENVELOPE" parameterId="Hold" mode="Time"
+               max="40000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-GENV DECAY" x="135" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 GAIN ENVELOPE" parameterId="Decay" mode="Time"
+               max="40000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"
+               tooltip="SHOW VIRTUAL KEYBOARD "/>
+    <Component type="ScriptSlider" id="E3-GENV RELEASE" x="151" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 GAIN ENVELOPE" parameterId="Release" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1708103756" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="E3-GENV DISPLAY" x="169" y="247"
+               parentComponent="EDITOR PANEL" ContentType="AHDSRGraph" bgColour="754974719"
+               itemColour="1708103756" itemColour2="2144304652" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;E3 GAIN ENVELOPE&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="0" width="90" height="38" enabled="0"/>
+    <Component type="ScriptSlider" id="E3-GENV ATTACK CURVE" x="168" y="288"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E3 GAIN ENVELOPE"
+               parameterId="AttackCurve" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215" middlePosition="0.5"
+               defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="E3-GENV DECAY CURVE" x="168" y="305"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E3 GAIN ENVELOPE"
+               parameterId="DecayCurve" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215" middlePosition="0.5"
+               defaultValue="0.5"/>
+    <Component type="ScriptSlider" id="E3-GENV ATTACK LEVEL" x="168" y="322"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E3 GENV VELOCITY ATTACK LEVEL"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E3-VELOCITY ATTACK LEVEL ON" x="171"
+               y="324" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E3 VELOCITY ATTACK LEVEL - ON/OFF" processorId="E3 GENV VELOCITY ATTACK LEVEL"
+               parameterId="Enabled"/>
+    <Component type="ScriptSlider" id="E3-VELOCITY SENSITIVITY" x="168" y="340"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E3 VELOCITY SENSITIVITY"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptButton" id="E3-VELOCITY SENSITIVITY ON" x="171" y="343"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E3 VELOCITY SENSITIVITY - ON/OFF"
+               processorId="E3 VELOCITY SENSITIVITY" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E3-VELOCITY SENSITIVITY INVERT" x="245"
+               y="343" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               processorId="E3 VELOCITY SENSITIVITY" parameterId="Inverted"
+               tooltip="E3 VELOCITY SENS INVERT"/>
+    <Component type="ScriptLabel" id="E3-FILTER SECTION" x="265" y="248" parentComponent="EDITOR PANEL"
+               width="98" height="20" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               text="" alignment="left" enabled="0"/>
+    <Component type="ScriptComboBox" id="E3FILTERSELECT" x="269" y="252" parentComponent="EDITOR PANEL"
+               width="90" height="14" bgColour="352321535" itemColour="1700238042"
+               itemColour2="1118481" textColour="1409286143" text="" items="&#10;_1POLE LP&#10;_1POLE HP&#10;_BIQUAD LP&#10;_BIQUAD HP&#10;_SVF LP&#10;_SVF HP&#10;_MOOG LP&#10;_BIQUAD REZ&#10;_LADDER 4P&#10;_LO SHELF&#10;_HI SHELF&#10;_PEAK EQ&#10;_ALLPASS&#10;_RINGMOD"
+               max="14"/>
+    <Component type="ScriptButton" id="E3-FILTER ON" x="271" y="253" width="10"
+               height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" processorId="E3 FILTER" parameterId="Enabled"
+               tooltip="E3 FILTER - ON/OFF"/>
+    <Component type="ScriptSlider" id="E3-FILTER FREQUENCY" x="265" y="271"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="98"
+               height="14" showTextBox="0" showValuePopup="Above" processorId="E3 FILTER"
+               parameterId="Frequency" mode="Frequency" min="20" max="20000"
+               stepSize="1" suffix=" Hz" middlePosition="1500" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-FILTER RESONANCE" x="265" y="288"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="98"
+               height="14" showTextBox="0" showValuePopup="Above" processorId="E3 FILTER"
+               parameterId="Q" min="0.3" max="8" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-FILTER BIPOLAR" x="265" y="305" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E3 FILTER" parameterId="BipolarIntensity" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-1"/>
+    <Component type="ScriptSlider" id="E3-FILTER GAIN" x="265" y="322" parentComponent="EDITOR PANEL"
+               style="Horizontal" width="98" height="14" showTextBox="0" showValuePopup="Above"
+               processorId="E3 FILTER" parameterId="Gain" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-18" max="18" middlePosition="0"/>
+    <Component type="ScriptSlider" id="E3-FENV ATTACK" x="366" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 FILTER ENVELOPE" parameterId="Attack" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-FENV DECAY" x="382" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 FILTER ENVELOPE" parameterId="Decay" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-FENV SUSTAIN" x="398" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 FILTER ENVELOPE" parameterId="Sustain" mode="Decibel"
+               max="0" stepSize="1" suffix=" ms" middlePosition="-50" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"
+               min="-90"/>
+    <Component type="ScriptSlider" id="E3-FENV RELEASE" x="414" y="247" parentComponent="EDITOR PANEL"
+               style="Vertical" width="14" height="90" showTextBox="0" showValuePopup="Right"
+               processorId="E3 FILTER ENVELOPE" parameterId="Release" mode="Time"
+               max="20000" stepSize="1" suffix=" ms" middlePosition="1000" bgColour="754974719"
+               itemColour="1700238042" itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="E3-FENV DISPLAY" x="431" y="247"
+               parentComponent="EDITOR PANEL" ContentType="AHDSRGraph" bgColour="754974719"
+               itemColour="1700238042" itemColour2="2133103611" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;E3 FILTER ENVELOPE&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="0" width="90" height="38" enabled="0"/>
+    <Component type="ScriptLabel" id="E3-FILTER ENVELOPE ON label" x="462" y="252"
+               parentComponent="EDITOR PANEL" width="56" height="14" text="FILTER ENVELOPE ON"
+               editable="0" multiline="1" fontName="Calibri" fontStyle="Bold"
+               itemColour2="0" textColour="4290756543" alignment="left" itemColour="4285689968"
+               enabled="0" fontSize="9"/>
+    <Component type="ScriptButton" id="E3-FILTER ENVELOPE ON" x="506" y="254"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E3 FILTER ENVELOPE ATTACK LEVEL - ON/OFF"
+               processorId="E3 FILTER ENVELOPE" parameterId="Enabled" text="B-ENV ON"/>
+    <Component type="ScriptSlider" id="E3-FENV ATTACK CURVE" x="431" y="288"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E3 FILTER ENVELOPE"
+               parameterId="AttackCurve" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-FENV DECAY CURVE" x="431" y="305"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E3 FILTER ENVELOPE"
+               parameterId="DecayCurve" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215"/>
+    <Component type="ScriptSlider" id="E3-FENV ATTACK LEVEL" x="431" y="322"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="91"
+               height="14" showTextBox="0" showValuePopup="Right" processorId="E3 FILTER ENVELOPE"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" min="-3" max="3"
+               middlePosition="0"/>
+    <Component type="ScriptSlider" id="E3-FILTER FREQUENCY V_SENS" x="265" y="340"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="83"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E3 FILTER VELOCITY FREQUENCY"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E3-FILTER FREQUENCY V-SENS ON" x="269"
+               y="343" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E3 FILTER FREQUENCY VELOCITY SENSITIVITY - ON/OFF" processorId="E3 FILTER VELOCITY FREQUENCY"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E3-FILTER FREQUENCY V-SENS INVERT" x="335"
+               y="343" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E3 FILTER FREQUENCY VELOCITY SENSITIVITY INVERT" processorId="E3 FILTER VELOCITY FREQUENCY"
+               parameterId="Inverted"/>
+    <Component type="ScriptSlider" id="E3-FILTER GAIN V-SENS" x="351" y="340"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="84"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E3 FILTER VELOCITY GAIN"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E3-FILTER GAIN V-SENS ON" x="356" y="343"
+               width="10" height="10" parentComponent="EDITOR PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="E3 FILTER GAIN VELOCITY SENSITIVITY - ON/OFF"
+               processorId="E3 FILTER VELOCITY GAIN" parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E3-FILTER GAIN V-SENS INVERT" x="422"
+               y="343" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E3 FILTER GAIN VELOCITY SENSITIVITY INVERT" processorId="E3 FILTER VELOCITY GAIN"
+               parameterId="Inverted"/>
+    <Component type="ScriptSlider" id="E3-FILTER BIPLOAR V-SENS" x="438" y="340"
+               parentComponent="EDITOR PANEL" style="Horizontal" width="84"
+               height="16" showTextBox="0" showValuePopup="Right" processorId="E3 FILTER VELOCITY BIPOLAR"
+               parameterId="Intensity" bgColour="754974719" itemColour="1700238042"
+               itemColour2="4282795590" textColour="16777215" max="2"/>
+    <Component type="ScriptButton" id="E3-FILTER BIPOLAR V-SENS ON" x="441"
+               y="343" width="10" height="10" parentComponent="EDITOR PANEL"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" scaleFactor="0.05"
+               tooltip="E3 FILTER BIPLOAR VELOCITY SENSITIVITY - ON/OFF" processorId="E3 FILTER VELOCITY BIPOLAR"
+               parameterId="Enabled"/>
+    <Component type="ScriptButton" id="E3-FILTER BIPOLAR V-SENS INVERT" x="509"
+               y="343" width="10" height="10" parentComponent="EDITOR PANEL"
+               scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}normal_inverted.png"
+               tooltip="E3 FILTER BIPOLAR VELOCITY SENSITIVITY INVERT" processorId="E3 FILTER VELOCITY BIPOLAR"
+               parameterId="Inverted"/>
+  </Component>
+  <Component type="ScriptPanel" id="EQ PANEL" x="104" y="45" width="526" height="362"
+             bgColour="16777215" textColour="4280689480" borderRadius="2"
+             itemColour="3041878376" itemColour2="3909091328" visible="0">
+    <Component type="ScriptLabel" id="eq bckg 01" x="8" y="6" width="510" height="350"
+               parentComponent="EQ PANEL" itemColour2="0" textColour="0" bgColour="4279243541"/>
+    <Component type="ScriptFloatingTile" id="EQ DISPLAY" x="15" y="11" width="496"
+               height="340" parentComponent="EQ PANEL" ContentType="DraggableFilterPanel"
+               bgColour="1242510889" itemColour="1622183783" itemColour2="1622579792"
+               Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;EQ&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="3711049985"/>
+    <Component type="ScriptLabel" id="EQ ON label" x="17" y="12" parentComponent="EQ PANEL"
+               width="36" height="16" text="EQ" editable="0" multiline="1" fontName="Calibri"
+               fontStyle="Bold" itemColour2="0" textColour="4290756543" alignment="right"
+               itemColour="4285689968" enabled="0" fontSize="14"/>
+    <Component type="ScriptButton" id="EQ ON" x="21" y="15" width="10" height="10"
+               parentComponent="EQ PANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.05" tooltip="EQUALIZER - ON/OFF" processorId="EQ"
+               parameterId="Enabled"/>
+  </Component>
+  <Component type="ScriptPanel" id="SETTINGS PANEL" x="105" y="45" width="526"
+             height="364" bgColour="16777215" itemColour="4278190080" itemColour2="4278190080"
+             borderRadius="2" textColour="4278913807" visible="0">
+    <Component type="ScriptLabel" id="AUDIO SETTINGS label" x="5" y="7" parentComponent="SETTINGS PANEL"
+               width="18" height="288" text="A U D I O  " multiline="1" fontName="Calibri"
+               fontStyle="Bold" fontSize="12" textColour="4286940549" bgColour="3123917619"
+               itemColour="267974904" editable="0" enabled="0"/>
+    <Component type="ScriptLabel" id="MIDI SETTINGS label" x="5" y="298" parentComponent="SETTINGS PANEL"
+               width="18" height="60" text="M I D I" multiline="1" fontName="Calibri"
+               fontStyle="Bold" textColour="4286940549" bgColour="3123917619"
+               itemColour="267974904" editable="0" enabled="0" fontSize="12"/>
+    <Component type="ScriptFloatingTile" id="AUDIO SETTINGS" x="16" y="0" width="233"
+               height="360" parentComponent="SETTINGS PANEL" ContentType="CustomSettings"
+               bgColour="4278190080" itemColour="4294951115" itemColour2="4294951115"
+               Data="{&#13;&#10;  &quot;Driver&quot;: true,&#13;&#10;  &quot;Device&quot;: true,&#13;&#10;  &quot;Output&quot;: false,&#13;&#10;  &quot;BufferSize&quot;: false,&#13;&#10;  &quot;SampleRate&quot;: false,&#13;&#10;  &quot;GlobalBPM&quot;: false,&#13;&#10;  &quot;StreamingMode&quot;: true,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;  &quot;ClearMidiCC&quot;: false,&#13;&#10;  &quot;SampleLocation&quot;: true,&#13;&#10;  &quot;DebugMode&quot;: false,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.75,&#13;&#10;    1.0,&#13;&#10;    1.25,&#13;&#10;    1.5,&#13;&#10;    2.0&#13;&#10;  ]&#13;&#10;}"
+               Font="Calibri" FontSize="12" textColour="2197815295">
+      <Component type="ScriptLabel" id="AS cover 04" x="10" y="9" parentComponent="AUDIO SETTINGS"
+                 width="198" height="284" bgColour="623137658" itemColour="1111392161"
+                 itemColour2="0" textColour="16777215" text="" enabled="0"/>
+      <Component type="ScriptLabel" id="AS cover 01" x="86" y="11" parentComponent="AUDIO SETTINGS"
+                 width="122" height="198" bgColour="1730433914" itemColour="826179489"
+                 itemColour2="0" textColour="16777215" text="" enabled="0"/>
+      <Component type="ScriptLabel" id="swb-undr 0106" x="25" y="221" parentComponent="AUDIO SETTINGS"
+                 width="170" height="17" bgColour="712611226" itemColour2="0"
+                 textColour="16777215" itemColour="2567227" text="swb-undr 01"
+                 enabled="0" processorId="VELOCITY GLOBAL" parameterId="Intensity"/>
+      <Component type="ScriptLabel" id="AS cover 02" x="22" y="218" parentComponent="AUDIO SETTINGS"
+                 width="176" height="23" bgColour="1982092154" itemColour="1165128306"
+                 itemColour2="0" textColour="16777215" text="" enabled="0"/>
+      <Component type="ScriptLabel" id="border 01" x="11" y="18" parentComponent="AUDIO SETTINGS"
+                 width="74" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+      <Component type="ScriptLabel" id="border 02" x="11" y="58" parentComponent="AUDIO SETTINGS"
+                 width="74" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+      <Component type="ScriptLabel" id="border 03" x="11" y="97" parentComponent="AUDIO SETTINGS"
+                 width="74" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+      <Component type="ScriptLabel" id="border 04" x="11" y="138" parentComponent="AUDIO SETTINGS"
+                 width="74" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+      <Component type="ScriptLabel" id="border 05" x="11" y="178" parentComponent="AUDIO SETTINGS"
+                 width="74" height="24" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+      <Component type="ScriptLabel" id="border 06" x="11" y="251" parentComponent="AUDIO SETTINGS"
+                 width="196" height="40" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+      <Component type="ScriptLabel" id="border 07" x="8" y="7" parentComponent="AUDIO SETTINGS"
+                 width="202" height="288" itemColour="1207959551" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+                 enabled="0" text="" alignment="right"/>
+    </Component>
+    <Component type="ScriptFloatingTile" id="MIDI SETTINGS" x="23" y="298" width="204"
+               height="60" parentComponent="SETTINGS PANEL" ContentType="MidiSources"
+               bgColour="4278190080" itemColour="4294951115" itemColour2="4294951115"
+               Data="{&#13;&#10;}" Font="Calibri" FontSize="12">
+      <Component type="ScriptLabel" id="border 012" x="3" y="2" parentComponent="MIDI SETTINGS"
+                 width="198" height="56" itemColour="469762047" fontSize="11"
+                 fontName="Calibri" textColour="4122194867" fontStyle="Bold" enabled="0"
+                 text="" alignment="right" bgColour="2516582400"/>
+    </Component>
+    <Component type="ScriptLabel" id="AS cover 03" x="24" y="298" parentComponent="SETTINGS PANEL"
+               width="202" height="60" bgColour="623137658" itemColour="1111392161"
+               itemColour2="0" textColour="16777215" text="" enabled="0"/>
+    <Component type="ScriptLabel" id="separator 1" x="233" y="12" parentComponent="SETTINGS PANEL"
+               width="1" height="340" text="" multiline="1" fontName="Calibri"
+               fontStyle="Bold" fontSize="12" textColour="8750469" bgColour="2838704947"
+               itemColour="16316664" editable="0" enabled="0" itemColour2="0"/>
+    <Component type="ScriptLabel" id="separator 2" x="234" y="12" parentComponent="SETTINGS PANEL"
+               width="285" height="26" text="" multiline="1" fontName="Calibri"
+               fontStyle="Bold" fontSize="12" textColour="8750469" bgColour="2838704947"
+               itemColour="16316664" editable="0" enabled="0" itemColour2="0"/>
+    <Component type="ScriptLabel" id="separator 3" x="234" y="93" parentComponent="SETTINGS PANEL"
+               width="285" height="10" text="" multiline="1" fontName="Calibri"
+               fontStyle="Bold" fontSize="12" textColour="8750469" bgColour="2838704947"
+               itemColour="16316664" editable="0" enabled="0" itemColour2="0"/>
+    <Component type="ScriptLabel" id="USE TABLE label" x="250" y="154" parentComponent="SETTINGS PANEL"
+               width="62" height="18" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               enabled="0" text="USE TABLE" alignment="right" processorId="VELOCITY GLOBAL"
+               parameterId="UseTable"/>
+    <Component type="ScriptLabel" id="SOUNDBOARDSIM label3" x="241" y="145"
+               parentComponent="SETTINGS PANEL" width="278" height="208" itemColour="1207959551"
+               fontSize="11" fontName="Calibri" textColour="4122194867" fontStyle="Bold"
+               bgColour="3552822" text="" alignment="right" editable="0" enabled="0"/>
+    <Component type="ScriptLabel" id="AS cover 05" x="239" y="109" parentComponent="SETTINGS PANEL"
+               width="282" height="249" bgColour="623137658" itemColour="1111392161"
+               itemColour2="0" textColour="16777215" text="" enabled="0"/>
+    <Component type="ScriptLabel" id="AS cover 06" x="239" y="46" parentComponent="SETTINGS PANEL"
+               width="280" height="40" bgColour="623137658" itemColour="1111392161"
+               itemColour2="0" textColour="16777215" text="" enabled="0"/>
+    <Component type="ScriptLabel" id="swb-undr 0105" x="249" y="153" parentComponent="SETTINGS PANEL"
+               width="262" height="192" bgColour="1564688175" itemColour2="0"
+               textColour="16777215" itemColour="2567227" text="swb-undr 01"
+               enabled="0" processorId="VELOCITY GLOBAL" parameterId="Intensity"/>
+    <Component type="ScriptLabel" id="swb-undr 0104" x="246" y="115" parentComponent="SETTINGS PANEL"
+               width="268" height="19" bgColour="1564688175" itemColour2="0"
+               textColour="16777215" itemColour="2567227" text="swb-undr 01"
+               enabled="0" processorId="VELOCITY GLOBAL" parameterId="Intensity"/>
+    <Component type="ScriptTable" id="VELOCITY SCALE TABLE" x="245" y="149"
+               width="270" height="200" parentComponent="SETTINGS PANEL" processorId="VELOCITY GLOBAL"
+               customColours="1" bgColour="754974719" itemColour="1708103756"
+               itemColour2="1711249935" saveInPreset="0"/>
+    <Component type="ScriptButton" id="USE TABLE BUTTON" x="253" y="158" parentComponent="SETTINGS PANEL"
+               processorId="VELOCITY GLOBAL" parameterId="UseTable" scaleFactor="0.05"
+               filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png" width="12"
+               height="11" text="SOUNDBOARD SIM button"/>
+    <Component type="ScriptPanel" id="soundboardsim tooltip info" x="248" y="57"
+               width="127" height="19" parentComponent="SETTINGS PANEL" bgColour="16777215"
+               textColour="16777215" itemColour2="0" itemColour="0" text=""
+               tooltip="SOUNDBOARD SIMULATION    |    mapped to CC-64" borderRadius="1"
+               borderSize="1" enabled="0" visible="0"/>
+    <Component type="ScriptButton" id="SOUNDBOARDSIM BUTTON" x="252" y="61"
+               parentComponent="SETTINGS PANEL" processorId="SOUNDBOARDSIM"
+               parameterId="Enabled" scaleFactor="0.05" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               width="12" height="11" text="SOUNDBOARD SIM button" enabled="0"
+               visible="0"/>
+    <Component type="ScriptLabel" id="SOUNDBOARDSIM label" x="247" y="54" parentComponent="SETTINGS PANEL"
+               width="130" height="24" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               enabled="0" text="SOUNDBOARD SIMULATION " alignment="right" visible="0"/>
+    <Component type="ScriptLabel" id="SOUNDBOARDSIM label2" x="382" y="54" parentComponent="SETTINGS PANEL"
+               width="130" height="24" itemColour="1207959551" fontSize="11"
+               fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
+               enabled="0" text="" alignment="right" visible="0"/>
+    <Component type="ScriptSlider" id="GLOBAL VELOCITY INTENSITY" x="242" y="112"
+               parentComponent="SETTINGS PANEL" style="Horizontal" width="276"
+               height="25" showTextBox="0" showValuePopup="Right" processorId="VELOCITY GLOBAL"
+               parameterId="Intensity" bgColour="754974719" itemColour="1708103756"
+               itemColour2="4282795590" textColour="16777215" middlePosition="0.5"
+               defaultValue="0.5" enabled="0" visible="0"/>
+    <Component type="ScriptLabel" id="GLOBAL VELOCITY" x="302" y="113" parentComponent="SETTINGS PANEL"
+               width="160" height="23" itemColour="16777215" fontSize="11" fontName="Calibri"
+               textColour="4122194867" fontStyle="Bold" enabled="0" text="GLOBAL VELOCITY SENSITIVITY"
+               itemColour2="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="KEYBOARD PANEL" x="81" y="412" width="572"
+             height="53" bgColour="0" itemColour="0" itemColour2="0" textColour="16777215"
+             visible="0">
+    <Component type="ScriptFloatingTile" id="keys" x="0" y="-20" width="600"
+               height="74" ContentType="Keyboard" bgColour="4284769380" itemColour="0"
+               itemColour2="0" textColour="0" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 11.0,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 21,&#13;&#10;  &quot;HiKey&quot;: 108,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: true,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: true,&#13;&#10;  &quot;UseFlatStyle&quot;: false,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
+               parentComponent="KEYBOARD PANEL"/>
+    <Component type="ScriptLabel" id="RED FABRIC GFX" x="0" y="-1" width="600"
+               height="3" parentComponent="KEYBOARD PANEL" bgColour="4284547072"
+               textColour="16777215" itemColour2="1118481"/>
+    <Component type="ScriptLabel" id="cover for keys " x="-1" y="1" parentComponent="KEYBOARD PANEL"
+               width="574" height="47" textColour="16777215" text="" itemColour2="0"
+               bgColour="1443303706" enabled="0" editable="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="LIBRARY PANEL" x="103" y="45" width="529"
+             height="363" borderRadius="1" borderSize="3" itemColour="4278190080"
+             itemColour2="4278190080" bgColour="16777215" textColour="4279769643"
+             visible="0">
+    <Component type="ScriptFloatingTile" id="PRESET BROWSER" x="2" y="2" width="525"
+               height="359" parentComponent="LIBRARY PANEL" bgColour="4278782733"
+               ContentType="PresetBrowser" itemColour="4284250784" itemColour2="4294951115"
+               Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: true,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 2&#13;&#10;}"
+               textColour="4282931835" FontSize="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="ABOUT PANEL" x="104" y="43" width="528"
+             height="366" textColour="858941061" bgColour="16777215" itemColour="3741982761"
+             itemColour2="4279375133" borderRadius="2" holdIsRightClick="0"
+             popupOnRightClick="0" borderSize="4" visible="0">
+    <Component type="ScriptLabel" id="Label1" x="71" y="32" parentComponent="ABOUT PANEL"
+               width="409" height="304" textColour="16777215" bgColour="1811939328"
+               itemColour="2558426750"/>
+    <Component type="ScriptLabel" id="TEXT1" x="75" y="36" width="402" height="64"
+               parentComponent="ABOUT PANEL" text="Built using samples from Salamander Grand Piano Yamaha C5,          by Alexander Holm - https://creativecommons.org/licenses/by/3.0/"
+               fontName="Default" fontStyle="Bold" textColour="4290164406" editable="0"
+               enabled="0"/>
+    <Component type="ScriptLabel" id="TEXT2" x="56" y="79" width="435" height="74"
+               parentComponent="ABOUT PANEL" text="impulse response files used for convolution are made by                             https://freesound.org/people/recordinghopkins/packs/11031/,                                     by recordinghopkins at freesound.org                                                              -  Attribution: http://creativecommons.org/licenses/by/3.0/"
+               fontName="Default" fontStyle="Bold" textColour="4290164406" editable="0"
+               enabled="0"/>
+    <Component type="ScriptImage" id="Image1" x="104" y="256" parentComponent="ABOUT PANEL"
+               fileName="{PROJECT_FOLDER}HISE.png" width="57" height="59"/>
+    <Component type="ScriptLabel" id="TEXT3" x="169" y="265" width="308" height="37"
+               parentComponent="ABOUT PANEL" text="made with HISE (http://hise.audio)                                                         HISE is published under the GPLv3 open source license."
+               fontName="Default" fontStyle="Bold" alignment="left" textColour="4290164406"
+               editable="0" enabled="0"/>
+    <Component type="ScriptLabel" id="TEXT4" x="74" y="139" width="403" height="87"
+               parentComponent="ABOUT PANEL" text="Special Thanks to Alexander Holm for making such a great piano library, Christoph Hart for creating the HISE platform, and a very special Thank You to generous users and members of HISE forum for their help, advices and inspiration"
+               fontName="Default" fontStyle="Bold" textColour="4290164406" editable="0"
+               enabled="0"/>
+    <Component type="ScriptLabel" id="TEXT5" x="171" y="216" width="297" height="64"
+               parentComponent="ABOUT PANEL" text="ORCHESTOOSL PIANO |S| is a free GPLv3 open source instrument. Created by Ilir Bajri @ 2020"
+               fontName="Default" fontStyle="Bold" textColour="4290164406" editable="0"
+               enabled="0" alignment="left"/>
+  </Component>
+</ContentProperties>

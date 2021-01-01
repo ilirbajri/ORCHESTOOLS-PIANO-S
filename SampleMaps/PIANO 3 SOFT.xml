@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="PIANO 3 SOFT" RRGroupAmount="2" MicPositions=";" SaveMode="2">
+  <sample Root="21" LoKey="4" HiKey="22" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A0v8.wav" Duplicate="1"
+          Pan="0" SampleStartMod="2500" MonolithOffset="0" MonolithLength="1105920"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A1v8.wav" Duplicate="1"
+          Pan="-19" SampleStartMod="2500" MonolithOffset="1105920" MonolithLength="1028096"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A2v8.wav" Duplicate="1"
+          Pan="0" SampleStartMod="2500" MonolithOffset="2134016" MonolithLength="704512"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A3v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="2838528" MonolithLength="692224"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A4v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="3530752" MonolithLength="589824"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A5v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="4120576" MonolithLength="466944"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A6v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="4587520" MonolithLength="303104"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A7v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="4890624" MonolithLength="180224"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C1v8.wav" Duplicate="1"
+          Pan="0" SampleStartMod="2500" MonolithOffset="5070848" MonolithLength="1044480"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C2v8.wav" Duplicate="1"
+          Pan="0" SampleStartMod="2500" MonolithOffset="6115328" MonolithLength="987136"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C3v8.wav" Duplicate="1"
+          Pan="0" SampleStartMod="2500" MonolithOffset="7102464" MonolithLength="708608"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C4v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="7811072" MonolithLength="716800"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C5v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="8527872" MonolithLength="688128"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C6v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="9216000" MonolithLength="278528"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C7v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="9494528" MonolithLength="180224"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="108" LoKey="107" HiKey="127" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C8v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="9674752" MonolithLength="172032"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#1v8.wav" Duplicate="1"
+          Pan="-37" SampleStartMod="2500" MonolithOffset="9846784" MonolithLength="1073152"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#2v8.wav" Duplicate="1"
+          Pan="-17" SampleStartMod="2500" MonolithOffset="10919936" MonolithLength="978944"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#3v8.wav" Duplicate="1"
+          Pan="-15" SampleStartMod="2500" MonolithOffset="11898880" MonolithLength="712704"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#4v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="12611584" MonolithLength="700416"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#5v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="-18" MonolithOffset="13312000" MonolithLength="573440"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#6v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="13885440" MonolithLength="299008"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#7v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="14184448" MonolithLength="217088"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#1v8.wav" Duplicate="1"
+          Pan="-21" SampleStartMod="2500" MonolithOffset="14401536" MonolithLength="1032192"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#2v8.wav" Duplicate="1"
+          Pan="0" SampleStartMod="2500" MonolithOffset="15433728" MonolithLength="905216"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#3v8.wav" Duplicate="1"
+          Pan="27" SampleStartMod="2500" MonolithOffset="16338944" MonolithLength="712704"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#4v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="17051648" MonolithLength="651264"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#5v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="17702912" MonolithLength="528384"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#6v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="18231296" MonolithLength="258048"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#7v8.wav" Duplicate="1"
+          SampleStartMod="2500" Pan="0" MonolithOffset="18489344" MonolithLength="217088"
+          SampleRate="44100" Volume="10"/>
+  <sample Root="21" LoKey="4" HiKey="22" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A0v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="18706432" MonolithLength="1142784"
+          SampleRate="44100"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A1v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="19849216" MonolithLength="1028096"
+          SampleRate="44100" Pan="-19"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A2v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="20877312" MonolithLength="704512"
+          SampleRate="44100"/>
+  <sample Root="57" LoKey="56" HiKey="58" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A3v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="21581824" MonolithLength="704512"
+          SampleRate="44100"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A4v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="22286336" MonolithLength="593920"
+          SampleRate="44100"/>
+  <sample Root="81" LoKey="80" HiKey="82" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A5v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="22880256" MonolithLength="462848"
+          SampleRate="44100"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A6v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="23343104" MonolithLength="299008"
+          SampleRate="44100"/>
+  <sample Root="105" LoKey="104" HiKey="106" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/A7v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="23642112" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C1v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="23801856" MonolithLength="1048576"
+          SampleRate="44100"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C2v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="24850432" MonolithLength="983040"
+          SampleRate="44100"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C3v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="25833472" MonolithLength="704512"
+          SampleRate="44100"/>
+  <sample Root="60" LoKey="59" HiKey="61" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C4v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="26537984" MonolithLength="692224"
+          SampleRate="44100"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C5v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="27230208" MonolithLength="700416"
+          SampleRate="44100"/>
+  <sample Root="84" LoKey="83" HiKey="85" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C6v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="27930624" MonolithLength="274432"
+          SampleRate="44100"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C7v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="28205056" MonolithLength="196608"
+          SampleRate="44100"/>
+  <sample Root="108" LoKey="107" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/C8v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="28401664" MonolithLength="159744"
+          SampleRate="44100"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#1v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="28561408" MonolithLength="1060864"
+          SampleRate="44100" Pan="-37"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#2v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="29622272" MonolithLength="983040"
+          SampleRate="44100" Pan="-17"/>
+  <sample Root="51" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#3v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="30605312" MonolithLength="704512"
+          SampleRate="44100" Pan="-15"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#4v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="31309824" MonolithLength="667648"
+          SampleRate="44100"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#5v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="31977472" MonolithLength="557056"
+          SampleRate="44100" Pan="-18"/>
+  <sample Root="87" LoKey="86" HiKey="88" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#6v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="32534528" MonolithLength="294912"
+          SampleRate="44100"/>
+  <sample Root="99" LoKey="98" HiKey="100" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/D#7v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="32829440" MonolithLength="212992"
+          SampleRate="44100"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#1v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="33042432" MonolithLength="1032192"
+          SampleRate="44100" Pan="-21"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#2v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="34074624" MonolithLength="897024"
+          SampleRate="44100"/>
+  <sample Root="54" LoKey="53" HiKey="55" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#3v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="34971648" MonolithLength="712704"
+          SampleRate="44100" Pan="27"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#4v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="35684352" MonolithLength="647168"
+          SampleRate="44100"/>
+  <sample Root="78" LoKey="77" HiKey="79" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#5v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="36331520" MonolithLength="540672"
+          SampleRate="44100"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#6v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="36872192" MonolithLength="274432"
+          SampleRate="44100"/>
+  <sample Root="102" LoKey="101" HiKey="103" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}44.1khz16bit/F#7v7.wav" Duplicate="1"
+          SampleStartMod="2500" Volume="12" MonolithOffset="37146624" MonolithLength="204800"
+          SampleRate="44100"/>
+</samplemap>

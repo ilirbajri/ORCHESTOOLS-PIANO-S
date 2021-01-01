@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="COMPRESSION SWPBTTN" value="1"/>
+    <Control type="ScriptSlider" id="BOOST SWPBTTN" value="1"/>
+    <Control type="ScriptSlider" id="C-REVERB" value="1"/>
+    <Control type="ScriptComboBox" id="CONVOBOX" value="2"/>
+    <Control type="ScriptButton" id="ABOUT BUTTON" value="0"/>
+    <Control type="ScriptSlider" id="KEYCTRL 01" value="-8.9"/>
+    <Control type="ScriptSlider" id="KEYCTRL 02" value="-11.1"/>
+    <Control type="ScriptSlider" id="KEYCTRL 03" value="-8.6"/>
+    <Control type="ScriptSlider" id="KEYCTRL 04" value="60"/>
+    <Control type="ScriptSlider" id="KEYCTRL 05" value="-0.199999"/>
+    <Control type="ScriptSlider" id="KEYCTRL 06" value="-30.7"/>
+    <Control type="ScriptSlider" id="KEYCTRL 011" value="-6.3"/>
+    <Control type="ScriptSlider" id="KEYCTRL 07" value="-3.5"/>
+    <Control type="ScriptSlider" id="KEYCTRL 08" value="4.33"/>
+    <Control type="ScriptSlider" id="KEYCTRL 09" value="19.3"/>
+    <Control type="ScriptSlider" id="KEYCTRL 010" value="-31"/>
+    <Control type="ScriptSlider" id="KEYCTRL 012" value="38"/>
+    <Control type="ScriptSlider" id="E1 SWPBTTN " value="0"/>
+    <Control type="ScriptSlider" id="E2 SWPBTTN" value="0"/>
+    <Control type="ScriptSlider" id="E3 SWPBTTN" value="0"/>
+    <Control type="ScriptComboBox" id="E1MODELSELECT" value="2"/>
+    <Control type="ScriptSlider" id="E1-TRANSPOSE" value="-12"/>
+    <Control type="ScriptSlider" id="E1-SAMPLESTART2" value="1"/>
+    <Control type="ScriptSlider" id="E1-SAMPLESTART" value="0"/>
+    <Control type="ScriptButton" id="E1-SMPSTART ON" value="0"/>
+    <Control type="ScriptSlider" id="E1-SAMPLESTART VELOCITY" value="0.84"/>
+    <Control type="ScriptButton" id="E1-VELOCITY SMPSTART ON" value="1"/>
+    <Control type="ScriptButton" id="E1-VELOCITY SAMPLESTART INVERT" value="1"/>
+    <Control type="ScriptSlider" id="E1-SAMPLESTART RANDOM" value="0.78"/>
+    <Control type="ScriptButton" id="E1-RANDOM SAMPLESTART ON" value="1"/>
+    <Control type="ScriptSlider" id="E1-GENV ATTACK " value="10"/>
+    <Control type="ScriptSlider" id="E1-GENV HOLD" value="20"/>
+    <Control type="ScriptSlider" id="E1-GENV DECAY" value="6204"/>
+    <Control type="ScriptSlider" id="E1-GENV RELEASE" value="737"/>
+    <Control type="ScriptSlider" id="E1-GENV ATTACK CURVE" value="0.21"/>
+    <Control type="ScriptSlider" id="E1-GENV DECAY CURVE" value="1"/>
+    <Control type="ScriptSlider" id="E1-GENV ATTACK LEVEL" value="0.46"/>
+    <Control type="ScriptButton" id="E1-VELOCITY ATTACK LEVEL ON" value="1"/>
+    <Control type="ScriptSlider" id="E1-VELOCITY SENSITIVITY" value="0"/>
+    <Control type="ScriptButton" id="E1-VELOCITY SENSITIVITY ON" value="0"/>
+    <Control type="ScriptButton" id="E1-VELOCITY SENSITIVITY INVERT" value="0"/>
+    <Control type="ScriptComboBox" id="E1FILTERSELECT" value="4"/>
+    <Control type="ScriptButton" id="E1-FILTER ON" value="1"/>
+    <Control type="ScriptSlider" id="E1-FILTER FREQUENCY" value="2019"/>
+    <Control type="ScriptSlider" id="E1-FILTER RESONANCE" value="6.56"/>
+    <Control type="ScriptSlider" id="E1-FILTER BIPOLAR" value="0.27"/>
+    <Control type="ScriptSlider" id="E1-FILTER GAIN" value="-18"/>
+    <Control type="ScriptSlider" id="E1-FENV ATTACK" value="1102"/>
+    <Control type="ScriptSlider" id="E1-FENV DECAY" value="5400"/>
+    <Control type="ScriptSlider" id="E1-FENV SUSTAIN" value="-97"/>
+    <Control type="ScriptSlider" id="E1-FENV RELEASE" value="73"/>
+    <Control type="ScriptButton" id="E1-FILTER ENVELOPE ON" value="1"/>
+    <Control type="ScriptSlider" id="E1-FENV ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="E1-FENV DECAY CURVE" value="0.4"/>
+    <Control type="ScriptSlider" id="E1-FENV ATTACK LEVEL" value="1.04"/>
+    <Control type="ScriptSlider" id="E1-FILTER FREQUENCY V_SENS" value="1.23"/>
+    <Control type="ScriptButton" id="E1-FILTER FREQUENCY V-SENS ON" value="1"/>
+    <Control type="ScriptButton" id="E1-FILTER FREQUENCY V-SENS INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E1-FILTER GAIN V-SENS" value="0"/>
+    <Control type="ScriptButton" id="E1-FILTER GAIN V-SENS ON" value="0"/>
+    <Control type="ScriptButton" id="E1-FILTER GAIN V-SENS INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E1-FILTER BIPLOAR V-SENS" value="0.41"/>
+    <Control type="ScriptButton" id="E1-FILTER BIPOLAR V-SENS ON" value="1"/>
+    <Control type="ScriptButton" id="E1-FILTER BIPOLAR V-SENS INVERT" value="0"/>
+    <Control type="ScriptButton" id="E2-RELEASE TRIGGER ON" value="0"/>
+    <Control type="ScriptComboBox" id="E2MODELSELECT" value="3"/>
+    <Control type="ScriptSlider" id="E2-TRANSPOSE" value="-12"/>
+    <Control type="ScriptSlider" id="E2-PITCH" value="1"/>
+    <Control type="ScriptSlider" id="E2-SAMPLESTART" value="0.24"/>
+    <Control type="ScriptButton" id="E2-SMPSTART ON" value="1"/>
+    <Control type="ScriptSlider" id="E2-SAMPLESTART VELOCITY" value="0"/>
+    <Control type="ScriptButton" id="E2-VELOCITY SMPSTART ON" value="0"/>
+    <Control type="ScriptButton" id="E2-VELOCITY SAMPLESTART INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E2-SAMPLESTART RANDOM" value="0.66"/>
+    <Control type="ScriptButton" id="E2-RANDOM SAMPLESTART ON" value="1"/>
+    <Control type="ScriptSlider" id="E2-GENV ATTACK" value="10"/>
+    <Control type="ScriptSlider" id="E2-GENV HOLD" value="0"/>
+    <Control type="ScriptSlider" id="E2-GENV DECAY" value="2194"/>
+    <Control type="ScriptSlider" id="E2-GENV RELEASE" value="61"/>
+    <Control type="ScriptSlider" id="E2-GENV ATTACK CURVE" value="0.17"/>
+    <Control type="ScriptSlider" id="E2-GENV DECAY CURVE" value="0.47"/>
+    <Control type="ScriptSlider" id="E2-GENV ATTACK LEVEL" value="0.33"/>
+    <Control type="ScriptButton" id="E2-VELOCITY ATTACK LEVEL ON" value="1"/>
+    <Control type="ScriptSlider" id="E2-VELOCITY SENSITIVITY" value="0"/>
+    <Control type="ScriptButton" id="E2-VELOCITY SENSITIVITY ON" value="0"/>
+    <Control type="ScriptButton" id="E2-VELOCITY SENSITIVITY INVERT" value="0"/>
+    <Control type="ScriptComboBox" id="E2FILTERSELECT" value="8"/>
+    <Control type="ScriptButton" id="E2-FILTER ON" value="1"/>
+    <Control type="ScriptSlider" id="E2-FILTER FREQUENCY" value="5197"/>
+    <Control type="ScriptSlider" id="E2-FILTER RESONANCE" value="2.31"/>
+    <Control type="ScriptSlider" id="E2-FILTER BIPOLAR" value="-0.17"/>
+    <Control type="ScriptSlider" id="E2-FILTER GAIN" value="-18"/>
+    <Control type="ScriptSlider" id="E2-FENV ATTACK" value="21"/>
+    <Control type="ScriptSlider" id="E2-FENV DECAY" value="594"/>
+    <Control type="ScriptSlider" id="E2-FENV SUSTAIN" value="-34"/>
+    <Control type="ScriptSlider" id="E2-FENV RELEASE" value="0"/>
+    <Control type="ScriptButton" id="E2-FILTER ENVELOPE ON" value="1"/>
+    <Control type="ScriptSlider" id="E2-FENV ATTACK CURVE" value="0.07"/>
+    <Control type="ScriptSlider" id="E2-FENV DECAY CURVE" value="0.31"/>
+    <Control type="ScriptSlider" id="E2-FENV ATTACK LEVEL" value="0.24"/>
+    <Control type="ScriptSlider" id="E2-FILTER FREQUENCY V_SENS" value="0.79"/>
+    <Control type="ScriptButton" id="E2-FILTER FREQUENCY V-SENS ON" value="1"/>
+    <Control type="ScriptButton" id="E2-FILTER FREQUENCY V-SENS INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E2-FILTER GAIN V-SENS" value="0"/>
+    <Control type="ScriptButton" id="E2-FILTER GAIN V-SENS ON" value="0"/>
+    <Control type="ScriptButton" id="E2-FILTER GAIN V-SENS INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E2-FILTER BIPLOAR V-SENS" value="0.32"/>
+    <Control type="ScriptButton" id="E2-FILTER BIPOLAR V-SENS ON" value="1"/>
+    <Control type="ScriptButton" id="E2-FILTER BIPOLAR V-SENS INVERT" value="0"/>
+    <Control type="ScriptButton" id="E3-RELEASE TRIGGER ON" value="1"/>
+    <Control type="ScriptComboBox" id="E3MODELSELECT" value="4"/>
+    <Control type="ScriptSlider" id="E3-TRANSPOSE" value="0"/>
+    <Control type="ScriptSlider" id="E3-PITCH" value="0"/>
+    <Control type="ScriptSlider" id="E3-SAMPLESTART" value="0.18"/>
+    <Control type="ScriptButton" id="E3-SMPSTART ON" value="1"/>
+    <Control type="ScriptSlider" id="E3-SAMPLESTART VELOCITY" value="0.91"/>
+    <Control type="ScriptButton" id="E3-VELOCITY SMPSTART ON" value="1"/>
+    <Control type="ScriptButton" id="E3-VELOCITY SAMPLESTART INVERT" value="1"/>
+    <Control type="ScriptSlider" id="E3-SAMPLESTART RANDOM" value="0"/>
+    <Control type="ScriptButton" id="E3-RANDOM SAMPLESTART ON" value="0"/>
+    <Control type="ScriptSlider" id="E3-GENV ATTACK" value="1"/>
+    <Control type="ScriptSlider" id="E3-GENV HOLD" value="3"/>
+    <Control type="ScriptSlider" id="E3-GENV DECAY" value="1127"/>
+    <Control type="ScriptSlider" id="E3-GENV RELEASE" value="142"/>
+    <Control type="ScriptSlider" id="E3-GENV ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="E3-GENV DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="E3-GENV ATTACK LEVEL" value="0"/>
+    <Control type="ScriptButton" id="E3-VELOCITY ATTACK LEVEL ON" value="0"/>
+    <Control type="ScriptSlider" id="E3-VELOCITY SENSITIVITY" value="0"/>
+    <Control type="ScriptButton" id="E3-VELOCITY SENSITIVITY ON" value="0"/>
+    <Control type="ScriptButton" id="E3-VELOCITY SENSITIVITY INVERT" value="0"/>
+    <Control type="ScriptComboBox" id="E3FILTERSELECT" value="8"/>
+    <Control type="ScriptButton" id="E3-FILTER ON" value="1"/>
+    <Control type="ScriptSlider" id="E3-FILTER FREQUENCY" value="1878"/>
+    <Control type="ScriptSlider" id="E3-FILTER RESONANCE" value="3.51"/>
+    <Control type="ScriptSlider" id="E3-FILTER BIPOLAR" value="0.06"/>
+    <Control type="ScriptSlider" id="E3-FILTER GAIN" value="-16.5"/>
+    <Control type="ScriptSlider" id="E3-FENV ATTACK" value="27"/>
+    <Control type="ScriptSlider" id="E3-FENV DECAY" value="905"/>
+    <Control type="ScriptSlider" id="E3-FENV SUSTAIN" value="-90"/>
+    <Control type="ScriptSlider" id="E3-FENV RELEASE" value="0"/>
+    <Control type="ScriptButton" id="E3-FILTER ENVELOPE ON" value="1"/>
+    <Control type="ScriptSlider" id="E3-FENV ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="E3-FENV DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="E3-FENV ATTACK LEVEL" value="-1.65"/>
+    <Control type="ScriptSlider" id="E3-FILTER FREQUENCY V_SENS" value="1.14"/>
+    <Control type="ScriptButton" id="E3-FILTER FREQUENCY V-SENS ON" value="1"/>
+    <Control type="ScriptButton" id="E3-FILTER FREQUENCY V-SENS INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E3-FILTER GAIN V-SENS" value="0"/>
+    <Control type="ScriptButton" id="E3-FILTER GAIN V-SENS ON" value="0"/>
+    <Control type="ScriptButton" id="E3-FILTER GAIN V-SENS INVERT" value="0"/>
+    <Control type="ScriptSlider" id="E3-FILTER BIPLOAR V-SENS" value="0"/>
+    <Control type="ScriptButton" id="E3-FILTER BIPOLAR V-SENS ON" value="0"/>
+    <Control type="ScriptButton" id="E3-FILTER BIPOLAR V-SENS INVERT" value="0"/>
+    <Control type="ScriptButton" id="EQ ON" value="1"/>
+  </Content>
+  <Modules>
+    <Processor Type="CurveEq" ID="EQ" Bypassed="0" NumFilters="3" Band0="-15.9494"
+               Band1="234.759" Band2="8" Band3="1" Band4="4" Band5="-16.4051"
+               Band6="6262.49" Band7="8" Band8="1" Band9="4" Band10="4.55696"
+               Band11="3033.7" Band12="0.3" Band13="1" Band14="3" FFTEnabled="0">
+      <ChildProcessors/>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+    </Processor>
+  </Modules>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
