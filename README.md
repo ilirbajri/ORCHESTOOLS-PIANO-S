@@ -5,7 +5,7 @@ ORCHESTOOLS PIANO |S| is a virtual instrument built using HISE (http://hise.audi
 
 Visit http://musictop69.wixsite.com/orchestools for more info and download compiled plugins and standalone versions. Join the forum for discussions, requests, proposals, advices and stuff - http://musictop69.wixsite.com/orchestools/forum
 
-Sound demos at: ()
+Sound demos at: https://youtu.be/iBwBLFUpycU
 
 Use them for good and fun! Make music & Love!
 
