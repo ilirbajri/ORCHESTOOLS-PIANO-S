@@ -45,16 +45,16 @@
                parentComponent="GPHX BCKG" width="72" height="18" itemColour="637534207"
                fontSize="12" fontName="Calibri" enabled="0" textColour="4004754355"
                fontStyle="Bold" bgColour="541805387" text="HI-CUT"/>
-    <Component type="ScriptLabel" id="Line1" x="50" y="27" parentComponent="GPHX BCKG"
-               height="1" bgColour="1080189538" width="90" itemColour2="1118481"
+    <Component type="ScriptLabel" id="Line1" x="84" y="27" parentComponent="GPHX BCKG"
+               height="1" bgColour="1080189538" width="52" itemColour2="1118481"
                textColour="16777215"/>
-    <Component type="ScriptLabel" id="Line2" x="50" y="28" parentComponent="GPHX BCKG"
+    <Component type="ScriptLabel" id="Line2" x="84" y="28" parentComponent="GPHX BCKG"
                height="9" bgColour="1080189538" width="1" itemColour2="1118481"
                textColour="16777215" text="Line1"/>
     <Component type="ScriptLabel" id="Line3" x="595" y="27" parentComponent="GPHX BCKG"
-               height="1" bgColour="1080189538" width="90" itemColour2="1118481"
+               height="1" bgColour="1080189538" width="45" itemColour2="1118481"
                textColour="16777215" text="Line1"/>
-    <Component type="ScriptLabel" id="Line4" x="684" y="28" parentComponent="GPHX BCKG"
+    <Component type="ScriptLabel" id="Line4" x="639" y="28" parentComponent="GPHX BCKG"
                height="9" bgColour="1080189538" width="1" itemColour2="1118481"
                textColour="16777215" text="Line1"/>
   </Component>
@@ -64,7 +64,7 @@
                height="28" parentComponent="LEFT PANEL " bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="AUDIO COMPRESSION   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
-    <Component type="ScriptPanel" id="buttonsa layer4" x="9" y="75" width="73"
+    <Component type="ScriptPanel" id="buttonsa layer4" x="9" y="85" width="73"
                height="28" parentComponent="LEFT PANEL " bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="AUDIO COMPRESSION BOOST   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
@@ -72,7 +72,7 @@
                height="28" parentComponent="LEFT PANEL " bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="SHOW ADVANCED EDITOR PANEL   -   click+rightswipe = OPEN   |   click+leftswipe = CLOSE"/>
-    <Component type="ScriptPanel" id="buttonsa layer9" x="9" y="218" width="73"
+    <Component type="ScriptPanel" id="buttonsa layer9" x="9" y="228" width="73"
                height="28" parentComponent="LEFT PANEL " bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="SHOW SETTINGS PANEL   -   click+rightswipe = OPEN   |   click+leftswipe = CLOSE"/>
@@ -81,7 +81,7 @@
                itemColour2="827281231" bgColour="1402509464" itemColour="3346683660"
                stepSize="1" textColour="0" showTextBox="0" processorId="COMPRESSION"
                parameterId="CompressorEnabled" text="BODY SWPBTTN"/>
-    <Component type="ScriptSlider" id="BOOST SWPBTTN" x="12" y="83" width="66"
+    <Component type="ScriptSlider" id="BOOST SWPBTTN" x="12" y="93" width="66"
                height="12" parentComponent="LEFT PANEL " style="Horizontal"
                itemColour2="827281231" bgColour="1402509464" itemColour="3346683660"
                stepSize="1" textColour="0" showTextBox="0" processorId="COMPRESSION"
@@ -90,7 +90,7 @@
                height="12" parentComponent="LEFT PANEL " style="Horizontal"
                itemColour2="827281231" bgColour="1402509464" itemColour="3349352721"
                stepSize="1" textColour="0" showTextBox="0" saveInPreset="0"/>
-    <Component type="ScriptSlider" id="SETTINGS SWPBTTN" x="12" y="226" width="66"
+    <Component type="ScriptSlider" id="SETTINGS SWPBTTN" x="12" y="236" width="66"
                height="12" parentComponent="LEFT PANEL " style="Horizontal"
                itemColour2="827281231" bgColour="1402509464" itemColour="3349352721"
                stepSize="1" textColour="0" showTextBox="0" saveInPreset="0"/>
@@ -105,11 +105,11 @@
                  width="72" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text="COMPRESSION"/>
-      <Component type="ScriptLabel" id="swb-undr 05" x="12" y="84" parentComponent="LEFT PANEL labels"
+      <Component type="ScriptLabel" id="swb-undr 05" x="12" y="94" parentComponent="LEFT PANEL labels"
                  width="59" height="10" bgColour="1564688175" itemColour2="0"
                  textColour="16777215" itemColour="2567227" text="swb-undr 01"
                  enabled="0"/>
-      <Component type="ScriptLabel" id="BOOST ON" x="5" y="77" parentComponent="LEFT PANEL labels"
+      <Component type="ScriptLabel" id="BOOST ON" x="5" y="87" parentComponent="LEFT PANEL labels"
                  width="72" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text="BOOST"/>
@@ -121,20 +121,52 @@
                  width="72" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text="EDITOR" tooltip="SHOW ADVANCED EDITOR | click+rightswipe = OPEN  |  click+leftswipe = CLOSE"/>
-      <Component type="ScriptLabel" id="Line5" x="42" y="1" parentComponent="LEFT PANEL labels"
+      <Component type="ScriptLabel" id="Line5" x="76" y="1" parentComponent="LEFT PANEL labels"
                  height="34" bgColour="1080189538" width="1" itemColour2="1118481"
                  textColour="16777215" text="Line1"/>
-      <Component type="ScriptLabel" id="Line6" x="42" y="65" parentComponent="LEFT PANEL labels"
-                 height="9" bgColour="1080189538" width="1" itemColour2="1118481"
+      <Component type="ScriptLabel" id="Line6" x="76" y="65" parentComponent="LEFT PANEL labels"
+                 height="19" bgColour="1080189538" width="1" itemColour2="1118481"
                  textColour="16777215" text="Line1"/>
-      <Component type="ScriptLabel" id="swb-undr 010" x="12" y="227" parentComponent="LEFT PANEL labels"
+      <Component type="ScriptLabel" id="swb-undr 010" x="12" y="237" parentComponent="LEFT PANEL labels"
                  width="59" height="10" bgColour="1564684079" itemColour2="0"
                  textColour="16777215" itemColour="2567227" text="swb-undr 01"
                  enabled="0"/>
-      <Component type="ScriptLabel" id="SETTINGS PANEL SHOW" x="5" y="220" parentComponent="LEFT PANEL labels"
+      <Component type="ScriptLabel" id="settings label" x="5" y="230" parentComponent="LEFT PANEL labels"
                  width="72" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text="SETTINGS" tooltip="SHOW SETTINGS | click+rightswipe = OPEN  |  click+leftswipe = CLOSE"/>
+      <Component type="ScriptLabel" id="arrows2" x="5" y="167" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&gt; &gt; &gt; " fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows3" x="5" y="190" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&lt; &lt; &lt;" fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows4" x="5" y="220" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&gt; &gt; &gt; " fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows5" x="5" y="243" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&lt; &lt; &lt;" fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows6" x="5" y="77" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&gt; &gt; &gt; " fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows7" x="5" y="100" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&lt; &lt; &lt;" fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows8" x="4" y="28" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&gt; &gt; &gt; " fontSize="14"/>
+      <Component type="ScriptLabel" id="arrows9" x="4" y="51" parentComponent="LEFT PANEL labels"
+                 width="72" height="20" itemColour="16777215" fontName="Default"
+                 textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+                 text="&lt; &lt; &lt;" fontSize="14"/>
     </Component>
     <Component type="ScriptLabel" id="KEYBUTTON" x="37" y="373" width="24" height="28"
                parentComponent="LEFT PANEL " textColour="16777215" itemColour2="0"
@@ -163,11 +195,27 @@
   <Component type="ScriptPanel" id="RIGHT PANEL" x="636" y="47" width="102"
              height="410" bgColour="16777215" itemColour="0" itemColour2="0"
              textColour="16777215">
+    <Component type="ScriptLabel" id="arrows10" x="14" y="100" parentComponent="RIGHT PANEL"
+               width="72" height="20" itemColour="16777215" fontName="Default"
+               textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+               text="&lt; &lt; &lt;" fontSize="14"/>
+    <Component type="ScriptLabel" id="arrows11" x="14" y="77" parentComponent="RIGHT PANEL"
+               width="72" height="20" itemColour="16777215" fontName="Default"
+               textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+               text="&gt; &gt; &gt; " fontSize="14"/>
+    <Component type="ScriptLabel" id="arrows12" x="14" y="190" parentComponent="RIGHT PANEL"
+               width="72" height="20" itemColour="16777215" fontName="Default"
+               textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+               text="&lt; &lt; &lt;" fontSize="14"/>
+    <Component type="ScriptLabel" id="arrows13" x="14" y="167" parentComponent="RIGHT PANEL"
+               width="72" height="20" itemColour="16777215" fontName="Default"
+               textColour="4116799841" fontStyle="Bold" bgColour="3552822" enabled="0"
+               text="&gt; &gt; &gt; " fontSize="14"/>
     <Component type="ScriptPanel" id="buttonsa layer6" x="0" y="35" width="98"
                height="28" parentComponent="RIGHT PANEL" bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="CONVOLUTION REVERB SELECTOR "/>
-    <Component type="ScriptPanel" id="buttonsa layer7" x="7" y="74" width="83"
+    <Component type="ScriptPanel" id="buttonsa layer7" x="7" y="84" width="83"
                height="28" parentComponent="RIGHT PANEL" bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="CONVOLUTION REVERBATION   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
@@ -175,7 +223,7 @@
                height="28" parentComponent="RIGHT PANEL" bgColour="16777215"
                textColour="16777215" itemColour2="0" itemColour="0" text=""
                tooltip="SHOW EQUALIZER PANEL   -   click+rightswipe = ON   |   click+leftswipe = OFF"/>
-    <Component type="ScriptSlider" id="C-REVERB" x="17" y="83" width="66" height="12"
+    <Component type="ScriptSlider" id="C-REVERB" x="17" y="93" width="66" height="12"
                parentComponent="RIGHT PANEL" style="Horizontal" itemColour2="827281231"
                bgColour="1402509464" itemColour="1612801791" stepSize="1" textColour="0"
                showTextBox="0" processorId="CONVOLUTION" parameterId="ProcessInput"
@@ -195,10 +243,10 @@
                  width="94" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text=""/>
-      <Component type="ScriptLabel" id="swb-undr 07" x="23" y="84" parentComponent="LEFT PANEL labels1"
+      <Component type="ScriptLabel" id="swb-undr 07" x="23" y="94" parentComponent="LEFT PANEL labels1"
                  width="58" height="10" bgColour="907428181" itemColour2="0" textColour="16777215"
                  itemColour="2567227" text="swb-undr 01" enabled="0"/>
-      <Component type="ScriptLabel" id="CONVOLUTION REVERB ON" x="16" y="77" parentComponent="LEFT PANEL labels1"
+      <Component type="ScriptLabel" id="CONVOLUTION REVERB ON" x="16" y="87" parentComponent="LEFT PANEL labels1"
                  width="72" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text="C-REVERB"/>
@@ -210,18 +258,18 @@
                  width="72" height="24" itemColour="1207959551" fontSize="11"
                  fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                  enabled="0" text="EQ"/>
-      <Component type="ScriptLabel" id="Line7" x="50" y="1" parentComponent="LEFT PANEL labels1"
+      <Component type="ScriptLabel" id="Line7" x="5" y="1" parentComponent="LEFT PANEL labels1"
                  height="34" bgColour="1080189538" width="1" itemColour2="1118481"
                  textColour="16777215" text="Line1"/>
-      <Component type="ScriptLabel" id="Line8" x="50" y="65" parentComponent="LEFT PANEL labels1"
-                 height="9" bgColour="1080189538" width="1" itemColour2="1118481"
+      <Component type="ScriptLabel" id="Line8" x="16" y="65" parentComponent="LEFT PANEL labels1"
+                 height="19" bgColour="1080189538" width="1" itemColour2="1118481"
                  textColour="16777215" text="Line1"/>
     </Component>
     <Component type="ScriptComboBox" id="CONVOBOX" x="6" y="44" width="88" height="14"
                parentComponent="RIGHT PANEL" text="" bgColour="352321535" itemColour="2184212735"
                itemColour2="1118481" textColour="1409286143" items="STUDIO A&#10;STUDIO B&#10;HALL 1&#10;HALL 2&#10;HALL 3&#10;PLATE 1&#10;PLATE 2&#10;PLATE 3&#10;B-PLATE 1&#10;B-PLATE 2&#10;B-PLATE 3&#10;D-PLATE 1&#10;D-PLATE 2&#10;D-PLATE 3&#10;SPRING 1&#10;SPRING 2&#10;SPRING 3"
                max="17" fontSize="11" fontStyle="Bold"/>
-    <Component type="ScriptLabel" id="ABOUT BUTTON label" x="14" y="221" parentComponent="RIGHT PANEL"
+    <Component type="ScriptLabel" id="ABOUT BUTTON label" x="14" y="231" parentComponent="RIGHT PANEL"
                width="72" height="24" itemColour="1207959551" fontSize="11"
                fontName="Calibri" textColour="4122194867" fontStyle="Bold" bgColour="3552822"
                enabled="0" text="ABOUT">
@@ -486,13 +534,17 @@
     <Component type="ScriptLabel" id="PresetName" x="115" y="4" parentComponent="BOTTOM PANEL"
                width="292" height="14" text="Classical 1" textColour="4285176503"
                itemColour2="4279308561" bgColour="713077731" itemColour="268435455"
-               fontName="Default" fontStyle="Bold" fontSize="18"/>
+               fontName="Default" fontStyle="Bold" fontSize="18" editable="0"/>
     <Component type="ScriptLabel" id="ScriptLabel1" x="70" y="1" width="383"
                height="20" parentComponent="BOTTOM PANEL" textColour="33554432"
-               bgColour="2837459772" itemColour="4280032284" itemColour2="4279308561"/>
+               bgColour="2837459772" itemColour="4280032284" itemColour2="4279308561"
+               editable="0" enabled="0"/>
     <Component type="ScriptLabel" id="GFX - light" x="1" y="0" parentComponent="BOTTOM PANEL"
                width="526" height="14" textColour="16777215" bgColour="177114766"
-               itemColour2="4280032284" itemColour="10921638"/>
+               itemColour2="4280032284" itemColour="10921638" editable="0" enabled="0"/>
+    <Component type="ScriptButton" id="Button1" x="70" y="-1" parentComponent="BOTTOM PANEL"
+               width="382" height="20" saveInPreset="0" processorId="" linkedTo="LIBRARY BUTTON"
+               filmstripImage="{PROJECT_FOLDER}empty.png"/>
   </Component>
   <Component type="ScriptPanel" id="EDITOR PANEL" x="105" y="44" width="526"
              height="364" bgColour="16777215" itemColour="4280231216" itemColour2="4278190080"
@@ -2117,7 +2169,7 @@
                fontName="Default" fontStyle="Bold" textColour="4290164406" editable="0"
                enabled="0"/>
     <Component type="ScriptLabel" id="TEXT2" x="56" y="79" width="435" height="74"
-               parentComponent="ABOUT PANEL" text="impulse response files used for convolution are made by                             https://freesound.org/people/recordinghopkins/packs/11031/,                                     by recordinghopkins at freesound.org                                                              -  Attribution: http://creativecommons.org/licenses/by/3.0/"
+               parentComponent="ABOUT PANEL" text="impulse response files used for convolution are made by                                     by recordinghopkins at freesound.org                                                               http://creativecommons.org/licenses/by/3.0/"
                fontName="Default" fontStyle="Bold" textColour="4290164406" editable="0"
                enabled="0"/>
     <Component type="ScriptImage" id="Image1" x="104" y="256" parentComponent="ABOUT PANEL"

@@ -351,7 +351,7 @@
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
                 <Processor Type="PolyphonicFilter" ID="E1 FILTER" Bypassed="0" Gain="-18"
-                           Frequency="13167" Q="0.3" Mode="0" Quality="1.29923e+08" BipolarIntensity="-0.22">
+                           Frequency="13167" Q="0.3" Mode="0" Quality="2" BipolarIntensity="-0.22">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                                Intensity="1">
@@ -483,7 +483,7 @@
                   <Content>
                     <Control type="ScriptButton" id="TimeAttenuate" value="1"/>
                     <Control type="ScriptSlider" id="Time" value="6"/>
-                    <Control type="ScriptTable" id="TimeTable" value="14" data="24..........9C...vO...f+.........sO"/>
+                    <Control type="ScriptTable" id="TimeTable" value="1" data="24..........9C...vO...f+.........sO"/>
                   </Content>
                 </Processor>
               </ChildProcessors>
@@ -666,7 +666,7 @@
                   <Content>
                     <Control type="ScriptButton" id="TimeAttenuate" value="1"/>
                     <Control type="ScriptSlider" id="Time" value="3.4"/>
-                    <Control type="ScriptTable" id="TimeTable" value="25" data="24..........9C...vO...f+.........vO"/>
+                    <Control type="ScriptTable" id="TimeTable" value="2" data="24..........9C...vO...f+.........vO"/>
                   </Content>
                 </Processor>
               </ChildProcessors>
